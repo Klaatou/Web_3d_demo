@@ -1,0 +1,23 @@
+[
+ {
+  "id": "z2",
+  "type": "portal",
+  "label": "Portal to Hobit Land",
+  "x": 18,
+  "y": 13,
+  "z": 25,
+  "yaw": 3.141592653589793,
+  "shape": "ring",
+  "trigger": "enter",
+  "radius": 2,
+  "w": 2.4,
+  "h": 1.2,
+  "target": "?region=hobbit/hobbit",
+  "spawn": "",
+  "confirm": false,
+  "private": false,
+  "showName": false,
+  "mesh": ""
+ }
+ 
+]

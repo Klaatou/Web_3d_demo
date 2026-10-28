@@ -1,0 +1,23 @@
+[
+ {
+  "id": "z2",
+  "type": "portal",
+  "label": "Portal to PalmIsland",
+  "x": 14,
+  "y": 14,
+  "z": 35,
+  "yaw": 3.141592653589793,
+  "shape": "ring",
+  "trigger": "enter",
+  "radius": 2,
+  "w": 2.4,
+  "h": 1.2,
+  "target": "index.html?region=PalmIsland/PalmIsland",
+  "spawn": "",
+  "confirm": false,
+  "private": false,
+  "showName": false,
+  "mesh": ""
+ }
+ 
+]

@@ -1,0 +1,27 @@
+{
+ "showUrl": false,
+ "regions": [
+  {
+   "id": "hobbit",
+   "name": "hobbit",
+   "url": "index.html?region=hobbit/hobbit",
+   "x": 0,
+   "y": 0,
+   "spawn": "",
+   "room": "Hobbit",
+   "thumb": "hobbit/hobbit.jpg",
+   "presence": ""
+  },
+  {
+   "id": "palmisland",
+   "name": "PalmIsland",
+   "url": "index.html?region=PalmIsland/PalmIsland",
+   "x": 1,
+   "y": 0,
+   "spawn": "",
+   "room": "PalmIsland",
+   "thumb": "PalmIsland/PalmIsland.jpg",
+   "presence": ""
+  }
+ ]
+}
