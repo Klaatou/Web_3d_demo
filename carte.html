@@ -102,7 +102,7 @@ function setLangPref(v) {
 <div id="tools"><label class="chk"><input type="checkbox" id="alert"> <span data-i18n="map.alert">Surveillance des arrivées (son et repère)</span></label> <small id="alertState"></small></div>
 <div id="total"></div>
 <div id="grid"></div>
-<footer id="foot">glb2html v52 (25/10/2026)</footer>
+<footer id="foot">glb2html 1.0.0 (29/10/2026)</footer>
 </main>
 <script type="application/json" id="cfg">{"map": [], "mapUrl": "regions.json", "presenceUrl": "", "showUrl": false}</script>
 <script>
@@ -112,7 +112,7 @@ function setLangPref(v) {
   const POLL_ALERT_MS = 5000;   // quand « Surveillance sonore » est cochee
   const C = JSON.parse(document.getElementById('cfg').textContent);
   let MAP = C.map || [];
-  applyI18n(); document.getElementById('foot').textContent = tr('map.footer', 'v52 (25/10/2026)');
+  applyI18n(); document.getElementById('foot').textContent = tr('map.footer', '1.0.0 (29/10/2026)');
   if (document.querySelector('h1[data-i18n]')) document.title = tr('map.title');
   const grid = document.getElementById('grid'), counts = {}, vis = {}, answered = {}, hasVis = {}; let loadErr = '';
   // v34 : pseudo mémorisé (même clé que les régions) ; les liens des cartes reçoivent #name=PSEUDO
