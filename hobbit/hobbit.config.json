@@ -44,7 +44,7 @@
    "x": 0,
    "y": 0,
    "spawn": "",
-   "presence": "",
+   "presence": "wss://web-3d.tailce268a.ts.net",
    "room": "Hobbit",
    "thumb": ""
   }
@@ -52,7 +52,7 @@
  "mapUrl": "regions.json",
  "spectate": true,
  "chatFade": 0.0,
- "presenceUrl": "",
+ "presenceUrl": "wss://web-3d.tailce268a.ts.net",
  "room": "Hobbit",
  "zoneMarker": "dot",
  "showSpawns": false,
