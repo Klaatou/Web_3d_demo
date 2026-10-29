@@ -10,7 +10,7 @@
    "spawn": "",
    "room": "Hobbit",
    "thumb": "hobbit/hobbit.jpg",
-   "presence": ""
+   "presence": "wss://web-3d.tailce268a.ts.net"
   },
   {
    "id": "palmisland",
@@ -21,7 +21,7 @@
    "spawn": "",
    "room": "PalmIsland",
    "thumb": "PalmIsland/PalmIsland.jpg",
-   "presence": ""
+   "presence": "wss://web-3d.tailce268a.ts.net"
   }
  ]
 }
