@@ -24,7 +24,7 @@
    "presence": "wss://web-3d.tailce268a.ts.net"
   },
   {
-   "id": "ShowRoom3D",
+   "id": "showroom3d",
    "name": "ShowRoom3D",
    "url": "index.html?region=ShowRoom3D/ShowRoom3D",
    "x": 1,
