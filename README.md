@@ -6,7 +6,9 @@
 
 ## Français
 
-Deux régions OpenSim à visiter dans le navigateur, sans rien installer : **[ouvrir la démo](https://klaatou.github.io/Web_3d_demo/)**.
+Deux régions OpenSim à visiter dans le navigateur, sans rien installer : **[ouvrir la démo](https://klaatou.github.io/Web_3d_demo/)**. 
+
+**[Menu des "régions" en démo](https://klaatou.github.io/Web_3d_demo/carte.html)**
 
 - **Le projet** : [Web_3d](https://github.com/Klaatou/Web_3d) (présentation, documentation, code sous licence MIT).
 - **Les régions** : PalmIsland (une île) et Hobbit (un **fragment** de région : seule une partie a été sauvée dans l'OAR d'origine). Elles sont reliées par des portails, et `carte.html` affiche la carte des mondes.
@@ -17,7 +19,9 @@ Deux régions OpenSim à visiter dans le navigateur, sans rien installer : **[ou
 
 ## English
 
-Two OpenSim regions to visit in the browser, with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**.
+Two OpenSim regions to visit in the browser, with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**. 
+
+**[Demo "regions" menu](https://klaatou.github.io/Web_3d_demo/carte.html)**
 
 - **The project**: [Web_3d](https://github.com/Klaatou/Web_3d) (overview, documentation, MIT-licensed code).
 - **The regions**: PalmIsland (an island) and Hobbit (a **fragment** of a region: only a part was saved in the original OAR). They are linked by portals, and `carte.html` shows the world map.
