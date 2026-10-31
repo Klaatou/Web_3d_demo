@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Galerie de tableaux 3D : comment ça marche / How the 3D picture gallery works</title>
+<style>
+:root{--bg:#f7f7f4;--fg:#1c1c1c;--mut:#555;--card:#fff;--line:#c9c9c0;--acc:#0b3d6e;--code:#eceae2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15181c;--fg:#e8e8e4;--mut:#a9a9a3;--card:#1e2227;--line:#3a4048;--acc:#8ec1f2;--code:#2a3037}}
+:root[data-theme="dark"]{--bg:#15181c;--fg:#e8e8e4;--mut:#a9a9a3;--card:#1e2227;--line:#3a4048;--acc:#8ec1f2;--code:#2a3037}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px 16px 48px}
+header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:8px}
+h1{font-size:1.5rem;margin:.4em 0}
+h2{font-size:1.15rem;margin:1.6em 0 .4em;border-bottom:2px solid var(--line);padding-bottom:.2em}
+p,li{margin:.4em 0}
+code,pre{font-family:ui-monospace,Consolas,monospace;background:var(--code);border-radius:4px}
+code{padding:.05em .35em;font-size:.92em}
+pre{padding:10px 12px;overflow-x:auto;font-size:.9em}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--code)}
+.note{border-left:4px solid var(--acc);background:var(--card);padding:8px 12px;margin:.8em 0}
+.lang{display:inline-flex;border:2px solid var(--acc);border-radius:6px;overflow:hidden}
+.lang button{font:inherit;padding:4px 14px;border:0;background:var(--card);color:var(--fg);cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--acc);color:var(--bg);font-weight:700;text-decoration:underline}
+a{color:var(--acc)}
+[data-l]{display:none}
+html[data-lang="fr"] [data-l="fr"],html[data-lang="en"] [data-l="en"]{display:block}
+html[data-lang="fr"] span[data-l="fr"],html[data-lang="en"] span[data-l="en"]{display:inline}
+html[data-lang="fr"] li[data-l="fr"],html[data-lang="en"] li[data-l="en"]{display:list-item}
+html[data-lang="fr"] tr[data-l="fr"],html[data-lang="en"] tr[data-l="en"]{display:table-row}
+</style>
+<noscript><style>[data-l]{display:block!important}</style></noscript>
+<script>
+(function(){
+  var q=(location.search.match(/[?&]lang=(fr|en)/)||[])[1];
+  var l=q||((navigator.language||'fr').slice(0,2)==='fr'?'fr':'en');
+  document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l;
+  window.setLang=function(x){document.documentElement.setAttribute('data-lang',x);document.documentElement.lang=x;
+    var b=document.querySelectorAll('.lang button');for(var i=0;i<b.length;i++)b[i].setAttribute('aria-pressed',b[i].dataset.v===x?'true':'false');};
+  document.addEventListener('DOMContentLoaded',function(){window.setLang(l);});
+})();
+</script>
+</head>
+<body>
+<main>
+<header>
+  <h1><span data-l="fr">Comment marche la galerie de tableaux</span><span data-l="en">How the picture gallery works</span></h1>
+  <div class="lang" role="group" aria-label="Langue / Language">
+    <button type="button" data-v="fr" aria-pressed="true" onclick="setLang('fr')">Français</button>
+    <button type="button" data-v="en" aria-pressed="false" onclick="setLang('en')">English</button>
+  </div>
+</header>
+
+<!-- ================= FRANÇAIS ================= -->
+<div data-l="fr">
+<p>Chaque tableau de la galerie est une <b>zone de type « image »</b> posée sur un mur du bâtiment 3D. La page affiche, à cet endroit, un plan plat qui montre une image prise dans le dossier <code>medias</code>. <b>Pour changer un tableau, il suffit de remplacer le fichier image : rien d'autre à modifier.</b></p>
+
+<h2>1. Remplacer ou ajouter une image</h2>
+<ul>
+<li>Les images sont dans <code>galerie/medias/</code>. Le tableau n° 7 correspond au fichier <code>7.jpg</code>.</li>
+<li>Remplacez le fichier par une autre image <b>du même nom</b> : elle apparaît à la prochaine visite, sans vider le cache du navigateur.</li>
+<li>Formats essayés, dans cet ordre : <code>jpg, jpeg, png, webp, gif, avif</code>.</li>
+<li><b>Écrivez les noms en minuscules</b> (<code>2.jpg</code>, pas <code>2.JPG</code>) : sous Windows la casse ne compte pas, mais sur la plupart des hébergements <code>2.jpg</code> et <code>2.JPG</code> sont deux fichiers différents, et le tableau resterait vide.</li>
+<li>Quand la hauteur de la zone vaut 0 (cas de presque tous les tableaux fournis), la page garde la proportion de l'image : une image large donne un tableau large, sans déformation.</li>
+</ul>
+
+<h2>2. Les légendes</h2>
+<p>Une légende s'affiche sous le tableau. Deux façons de la donner :</p>
+<table>
+<tr><th>Méthode</th><th>Exemple</th><th>Résultat</th></tr>
+<tr><td>Dans le nom du fichier : le texte après le premier tiret</td><td><code>8-Amusement, Gauguin, 1892.jpg</code></td><td>« Amusement, Gauguin, 1892 » (un <code>_</code> devient une espace)</td></tr>
+<tr><td>Un fichier texte du même nom (UTF-8) : sa première ligne non vide</td><td><code>9.txt</code> contenant « Une odalisque »</td><td>« Une odalisque » (remplace la légende du nom de fichier)</td></tr>
+</table>
+<p>Le fichier <code>.txt</code> porte le même nom que l'image, sans l'extension : pour <code>9.jpg</code>, c'est <code>9.txt</code>, rangé à côté de l'image dans <code>medias/</code>. Sans légende, aucune bande de texte n'apparaît.</p>
+
+<h2>3. Ce qui fixe le nombre et la place des tableaux</h2>
+<p>Les zones (emplacement sur le mur, orientation, largeur <code>w</code>, hauteur <code>h</code>) sont enregistrées dans <code>galerie/galerie.zones.json</code>. Avec <code>h = 0</code>, la hauteur suit la proportion de l'image. Déplacer, ajouter ou supprimer un tableau se fait dans l'éditeur de zones du <b>viewer</b> de Web_3d (<code>glb-viewer.html</code>, outil séparé), qui écrit ce fichier : la page exportée de la galerie, elle, ne sert qu'à visiter.</p>
+<p>Tant que vous ne changez que le contenu de <code>medias/</code>, aucun outil n'est nécessaire.</p>
+
+<h2>4. Héberger la galerie</h2>
+<ul>
+<li>Copiez tout le dossier sur un hébergement web (GitHub Pages, un serveur web, un hébergement mutualisé). Il n'y a rien à installer sur le serveur.</li>
+<li><b>La galerie doit être sur un site web</b> (adresse commençant par <code>http://</code> ou <code>https://</code>). Si vous double-cliquez sur <code>index.html</code> depuis votre disque (adresse commençant par <code>file://</code>), la galerie ne s'ouvre pas : la page n'affiche qu'un message qui demande d'être servie en <code>http</code> ou <code>https</code>.</li>
+<li>Pour essayer chez soi : lancer un petit serveur dans le dossier (par exemple <code>python -m http.server</code>), puis ouvrir <code>http://localhost:8000/</code>.</li>
+</ul>
+
+<div class="note">Les dimensions des images ne sont pas limitées par la page, mais chaque visiteur les télécharge : une image légère se charge plus vite. À titre de repère, la galerie de démonstration pèse environ 5 Mo pour 31 images. Ce n'est pas une limite mesurée.</div>
+
+<p><a href="https://github.com/Klaatou/Web_3d">Web_3d sur GitHub</a> (code, manuel, éditeur de zones).</p>
+</div>
+
+<!-- ================= ENGLISH ================= -->
+<div data-l="en">
+<p>Each picture in the gallery is an <b>“image” zone</b> placed on a wall of the 3D building. At that spot the page draws a flat plane showing an image taken from the <code>medias</code> folder. <b>To change a picture, just replace the image file: nothing else needs editing.</b></p>
+
+<h2>1. Replace or add an image</h2>
+<ul>
+<li>Images live in <code>galerie/medias/</code>. Picture no. 7 is the file <code>7.jpg</code>.</li>
+<li>Replace the file with another image <b>of the same name</b>: it shows up on the next visit, without clearing the browser cache.</li>
+<li>Formats tried, in this order: <code>jpg, jpeg, png, webp, gif, avif</code>.</li>
+<li><b>Use lowercase file names</b> (<code>2.jpg</code>, not <code>2.JPG</code>): Windows ignores case, but on most web hosts <code>2.jpg</code> and <code>2.JPG</code> are two different files, and the picture would stay empty.</li>
+<li>When the zone's height is 0 (almost all the supplied pictures), the page keeps the image's proportions: a wide image gives a wide picture, undistorted.</li>
+</ul>
+
+<h2>2. Captions</h2>
+<p>A caption is shown under the picture. Two ways to provide it:</p>
+<table>
+<tr><th>Method</th><th>Example</th><th>Result</th></tr>
+<tr><td>In the file name: the text after the first hyphen</td><td><code>8-Amusement, Gauguin, 1892.jpg</code></td><td>“Amusement, Gauguin, 1892” (a <code>_</code> becomes a space)</td></tr>
+<tr><td>A text file of the same name (UTF-8): its first non-empty line</td><td><code>9.txt</code> containing “An Odalisque”</td><td>“An Odalisque” (replaces the caption from the file name)</td></tr>
+</table>
+<p>The <code>.txt</code> file has the same name as the image, without the extension: for <code>9.jpg</code> it is <code>9.txt</code>, stored next to the image in <code>medias/</code>. With no caption, no text strip is shown.</p>
+
+<h2>3. What fixes the number and position of the pictures</h2>
+<p>The zones (position on the wall, orientation, width <code>w</code>, height <code>h</code>) are stored in <code>galerie/galerie.zones.json</code>. With <code>h = 0</code> the height follows the image's proportions. Moving, adding or removing a picture is done in the zone editor of the Web_3d <b>viewer</b> (<code>glb-viewer.html</code>, a separate tool), which writes that file: the exported gallery page itself is for visiting only.</p>
+<p>As long as you only change the contents of <code>medias/</code>, no tool is needed.</p>
+
+<h2>4. Hosting the gallery</h2>
+<ul>
+<li>Copy the whole folder to a web host (GitHub Pages, a web server, shared hosting). Nothing to install on the server.</li>
+<li><b>The gallery must be on a website</b> (address starting with <code>http://</code> or <code>https://</code>). If you double-click <code>index.html</code> from your disk (address starting with <code>file://</code>), the gallery does not open: the page only shows a message asking to be served over <code>http</code> or <code>https</code>.</li>
+<li>To try it at home: start a small server in the folder (for example <code>python -m http.server</code>), then open <code>http://localhost:8000/</code>.</li>
+</ul>
+
+<div class="note">The page does not limit image dimensions, but every visitor downloads them: a lighter image loads faster. As a rough guide, the demo gallery weighs about 5 MB for 31 images. That is not a measured limit.</div>
+
+<p><a href="https://github.com/Klaatou/Web_3d">Web_3d on GitHub</a> (code, manual, zone editor).</p>
+</div>
+</main>
+</body>
+</html>

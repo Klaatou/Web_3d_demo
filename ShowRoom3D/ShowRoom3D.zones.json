@@ -638,5 +638,26 @@
     "private": false,
     "showName": false,
     "mesh": ""
-  }
+ },
+ {
+  "id": "z33",
+  "type": "image",
+  "label": "Aide",
+  "x": 1.7,
+  "y": 12.26,
+  "z": 0.265,
+  "yaw": 0,
+  "shape": "ring",
+  "trigger": "click",
+  "radius": 2,
+  "w": 0.25,
+  "h": 0,
+  "target": "aide.jpg",
+  "spawn": "",
+  "confirm": false,
+  "private": false,
+  "showName": false,
+  "mesh": "",
+  "link": "./showroom3d/galerie.html"
+ }
 ]

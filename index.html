@@ -3,18 +3,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<meta name="description" content="Promenez-vous dans PalmIsland et Hobbit, sans rien installer. / Walk around PalmIsland and Hobbit, nothing to install."/>
-<meta property="og:type" content="website"/>
-<meta property="og:title" content="Web_3d : régions OpenSim dans le navigateur"/>
-<meta property="og:description" content="Promenez-vous dans PalmIsland et Hobbit, sans rien installer. / Walk around PalmIsland and Hobbit, nothing to install."/>
-<meta property="og:url" content="https://klaatou.github.io/Web_3d_demo/"/>
-<meta property="og:image" content="https://klaatou.github.io/Web_3d_demo/preview.jpg"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="630"/>
-<meta name="twitter:card" content="summary_large_image"/>
 <link rel="icon" id="siteIcon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%230b3d6e'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Arial%2CHelvetica%2Csans-serif'%20font-size='34'%20font-weight='700'%20text-anchor='middle'%20fill='%23fff'%3E3D%3C/text%3E%3C/svg%3E"/>
 <script>(function () { var i = new Image(); i.onload = function () { var l = document.getElementById("siteIcon"); l.type = "image/x-icon"; l.href = "favicon.ico"; }; i.src = "favicon.ico"; })();</script>
-<title>Web_3d : régions OpenSim dans le navigateur</title>
+<title>Chargement…</title>
 <style>
 [hidden]{display:none!important}
 html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#87ceeb}
@@ -430,7 +421,7 @@ const softGpu = r => /Basic Render|SwiftShader|llvmpipe|softpipe|Software/i.test
 function diagText(viewer, extra) {
   const x = extra || {}, L = (k, v) => tr('core.diag.line', k, v), out = [tr('core.diag.title')];
   const nb = (v, d) => (Number.isFinite(v) ? i18nNum(v, d || 0) : '?');   // nombres à la manière de la langue (virgule en français)
-  out.push(L(tr('core.diag.version'), '1.0.3 (31/10/2026)' + (x.cfgVersion && x.cfgVersion !== '1.0.3 (31/10/2026)' ? ' ; ' + tr('core.diag.cfgver', x.cfgVersion) : '')));
+  out.push(L(tr('core.diag.version'), '1.1.1 (31/10/2026)' + (x.cfgVersion && x.cfgVersion !== '1.1.1 (31/10/2026)' ? ' ; ' + tr('core.diag.cfgver', x.cfgVersion) : '')));
   out.push(L(tr('core.diag.date'), new Date().toLocaleString(({ fr: 'fr-FR', en: 'en-GB' })[LANG]) + ' ; ' + tr('core.diag.uptime', nb(performance.now() / 1000))));
   out.push(L(tr('core.diag.page'), location.protocol + (location.host ? '//ADRESSE' : '//') + location.pathname + location.search));
   out.push(L(tr('core.diag.lang'), LANG + ' · ' + ((navigator.languages || []).join(',') || navigator.language || '?') + ' · ' + KB.layout().toUpperCase()));
@@ -2107,6 +2098,7 @@ function createViewer(container, cfg0, loader) {
   const zoneGroup = new THREE.Group(); scene.add(zoneGroup);
   let selId = null;
   let zones = [], zoneHit = [], zoneAll = [], zoneInside = new Set(), nearZone = null, zoneEditor = false, selBox = null, onZone = null, onNear = null;
+  const imgGone = new Set();   // ids des tableaux dont l'image est introuvable (page exportee) : ni cliquables ni zone proche
   // zones liées à un élément du modèle (champ mesh = nom exact) : id de zone -> { meshes, box } ; mesh 3D -> zone
   const zoneLink = new Map(), meshZone = new Map();
   const zoneOf = o => o.userData.zone || meshZone.get(o) || null;
@@ -2166,6 +2158,7 @@ function createViewer(container, cfg0, loader) {
   function zoneTipText(z) {
     const name = z.label || z.id;
     if (z.type === 'url') return [name, z.target];
+    if (z.type === 'image') return [name, z.link || ''];
     if (z.type === 'ha') return [name, tr('core.tip.cmd', name)];
     return [name, tr('core.tip.region', (String(z.target || '').trim() || tr('core.tip.thisregion')) + (z.spawn ? ' #' + z.spawn : ''))];
   }
@@ -2204,6 +2197,7 @@ function createViewer(container, cfg0, loader) {
       mesh: type === 'spawn' || img ? '' : String(z.mesh || '').replace(/[\u0000-\u001f]/g, '').slice(0, 200)
     };
     if (type !== 'portal') o.trigger = 'click';
+    if (img) { const lk = String(z.link || '').replace(/[\u0000-\u001f]/g, '').trim().slice(0, 600); if (lk) o.link = lk; }   // lien facultatif d'un tableau : page ouverte au clic ou a E ; ecrit seulement s'il est rempli
     return o;
   }
   function boardTex(label, sub, w, h) {
@@ -2319,7 +2313,7 @@ function createViewer(container, cfg0, loader) {
     const dg = { id: z.id, target: z.target, loaded: '', cap: capText || '', src: capText ? 'name' : '', vis: () => !!(cap && cap.visible) }; pl.userData.diag = dg;   // lu par « Copier le diagnostic »
     const absent = () => {
       console.warn(tr('core.image.missing', z.target || '-'));
-      if (zoneEditor) { mat.map = boardTex(z.label || z.id, tr('core.image.missing', z.target || '-'), z.w, pl.scale.y); mat.needsUpdate = true; } else { pl.visible = false; if (cap) cap.visible = false; }
+      if (zoneEditor) { mat.map = boardTex(z.label || z.id, tr('core.image.missing', z.target || '-'), z.w, pl.scale.y); mat.needsUpdate = true; } else { pl.visible = false; if (cap) cap.visible = false; imgGone.add(z.id); for (const L of [zoneHit, zoneAll]) { const k = L.indexOf(pl); if (k >= 0) L.splice(k, 1); } }
       dirty = true;
     };
     if (!z.target || /^\s*(javascript|vbscript):/i.test(z.target)) { absent(); return pl; }
@@ -2384,7 +2378,7 @@ function createViewer(container, cfg0, loader) {
       c.traverse(o => { if (o.geometry) o.geometry.dispose(); if (o.material) { if (o.material.map) o.material.map.dispose(); o.material.dispose(); } });
     }
     if (selBox) { scene.remove(selBox); selBox.geometry.dispose(); selBox.material.dispose(); selBox = null; }
-    zoneHit = []; zoneAll = []; zoneLabs = []; meshZone.clear();
+    zoneHit = []; zoneAll = []; zoneLabs = []; meshZone.clear(); imgGone.clear();
     setHover(null);
     markerMat.clear();
     for (const z of zones) {
@@ -2394,6 +2388,7 @@ function createViewer(container, cfg0, loader) {
       if (!link) { g.position.set(z.x, z.y, z.z); g.rotation.y = z.yaw; }
       if (z.type === 'image') {
         const pl = imagePlane(z); g.add(pl); if (pl.userData.cap) g.add(pl.userData.cap);
+        if (z.link && !zoneEditor && pl.visible) { pl.userData.zone = z; zoneAll.push(pl); zoneHit.push(pl); }   // tableau avec lien : cliquable (survol, clic, E) ; sans lien ou image absente : il ne reagit pas
         if (zoneEditor) { pl.userData.zone = z; zoneAll.push(pl); const lab = makeLabel(z.label || z.id); lab.position.y = (z.h > 0 ? z.h : z.w * 0.75) / 2 + 0.3; lab.material.depthTest = false; lab.renderOrder = 999; g.add(lab); }   // etiquette toujours entiere : le mur peut avoir des reliefs devant elle
         zoneGroup.add(g);
         continue;
@@ -2578,7 +2573,7 @@ function createViewer(container, cfg0, loader) {
     if (!zones.length) return;
     let best = null, bd = 1e9;
     for (const z of zones) {
-      if (z.type === 'spawn' || zoneOff(z)) continue;
+      if (z.type === 'spawn' || zoneOff(z) || (z.type === 'image' && (!z.link || imgGone.has(z.id)))) continue;   // un tableau sans lien n'est pas une zone proche (pas d'invite « clic ou E »)
       const { d, dy } = zoneDist(z);
       if (z.type === 'portal' && z.trigger !== 'click') {
         const inside = d <= z.radius && dy > -1.5 && dy < 3.5, was = zoneInside.has(z.id);
@@ -2973,8 +2968,8 @@ if ((C.zones || []).length || C.zonesLive) {
       const u = okUrl(z.target); if (!u) return toast(tr('page.zone.noportal', label));
       u.hash = 'spawn=' + encodeURIComponent(z.spawn || '') + '&name=' + encodeURIComponent(visitor());
       fade.classList.add('on'); setTimeout(() => { location.href = u.href; }, 480);
-    } else if (z.type === 'url') {
-      const u = okUrl(z.target); if (!u) return toast(tr('page.zone.badlink', label));
+    } else if (z.type === 'url' || z.type === 'image') {   // tableau avec lien (zone image) : comme une zone url
+      const u = okUrl(z.type === 'image' ? z.link : z.target); if (!u) return toast(tr('page.zone.badlink', label));
       window.open(u.href, '_blank', 'noopener,noreferrer'); toast(tr('page.zone.opening', label));
     } else if (z.type === 'ha') {
       if (!okUrl(z.target)) return toast(tr('page.zone.badcmd', label));
