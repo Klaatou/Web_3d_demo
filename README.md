@@ -17,6 +17,15 @@ Deux régions OpenSim à visiter dans le navigateur, sans rien installer : **[ou
 - **Navigateurs** : Edge et Chromium (Chrome) sont ceux avec lesquels le projet est testé ; Firefox et Safari n'ont pas été essayés.
 - **Origine des contenus** : les modèles viennent du site [Outworldz](https://www.outworldz.com/cgi/freesculpts.plx?q=OAR-). Ils ne sont pas couverts par la licence MIT du code. Si tu es l'auteur d'un contenu et souhaites son retrait, ouvre une *issue* sur ce dépôt : il sera retiré.
 
+### Chez vous, sans lire toute la documentation
+
+Deux paquets prêts à l'emploi, à télécharger sur la [page des versions](https://github.com/Klaatou/Web_3d/releases/latest) :
+
+- **`region-simple.zip`** : votre région OpenSim (un fichier GLB) dans un navigateur.
+- **`galerie-photos.zip`** : une galerie de 30 photos en 3D.
+
+Dézipper, lire `README.txt`, double-cliquer sur le lanceur (Windows). Le projet : [Web_3d](https://github.com/Klaatou/Web_3d).
+
 ## English
 
 Two OpenSim regions to visit in the browser, with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**. 
@@ -29,3 +38,12 @@ Two OpenSim regions to visit in the browser, with nothing to install: **[open th
 - **Limits**: no presence server here, so no visitors together and no shared chat. The first opening downloads the models (about 13 MB for PalmIsland, 28 MB for Hobbit).
 - **Browsers**: Edge and Chromium (Chrome) are the ones the project is tested with; Firefox and Safari have not been tried.
 - **Origin of the content**: the models come from the [Outworldz](https://www.outworldz.com/cgi/freesculpts.plx?q=OAR-) site. They are not covered by the MIT licence of the code. If you are the author of a piece of content and want it removed, open an *issue* on this repository: it will be removed.
+
+### At home, without reading all the documentation
+
+Two ready-to-use packages, to download from the [releases page](https://github.com/Klaatou/Web_3d/releases/latest):
+
+- **`region-simple.zip`**: your OpenSim region (a GLB file) in a browser.
+- **`galerie-photos.zip`**: a 3D gallery of 30 photos.
+
+Unzip, read `README.txt`, double-click the launcher (Windows). The project: [Web_3d](https://github.com/Klaatou/Web_3d).
