@@ -27,7 +27,7 @@ Deux paquets prêts à l'emploi, à télécharger sur la [page des versions](htt
 
 Dézipper, lire `README.txt`, double-cliquer sur le lanceur (Windows, macOS) ou taper `sh lancer-region.sh` dans un terminal (Linux). Le projet : [Web_3d](https://klaatou.github.io/Web_3d_demo/carte.html).
 
-[![Carte des 3 régions demo/ Map of the 3 demo regions](https://raw.githubusercontent.com/Klaatou/Web_3d/main/docs/images/carte.jpg)](https://klaatou.github.io/Web_3d_demo/)
+[![Carte des 3 régions demo/ Map of the 3 demo regions](https://raw.githubusercontent.com/Klaatou/Web_3d/main/docs/images/carte.jpg)](https://klaatou.github.io/Web_3d_demo/carte.html)
 
 ## English
 
