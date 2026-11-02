@@ -24,7 +24,7 @@ Deux paquets prêts à l'emploi, à télécharger sur la [page des versions](htt
 - **`region-simple.zip`** : votre région OpenSim (un fichier GLB) dans un navigateur.
 - **`galerie-photos.zip`** : une galerie de 30 photos en 3D.
 
-Dézipper, lire `README.txt`, double-cliquer sur le lanceur (Windows). Le projet : [Web_3d](https://github.com/Klaatou/Web_3d).
+Dézipper, lire `README.txt`, double-cliquer sur le lanceur (Windows, macOS) ou taper sh lancer-region.sh dans un terminal (Linux). Le projet : [Web_3d](https://github.com/Klaatou/Web_3d).
 
 ## English
 
@@ -46,4 +46,4 @@ Two ready-to-use packages, to download from the [releases page](https://github.c
 - **`region-simple.zip`**: your OpenSim region (a GLB file) in a browser.
 - **`galerie-photos.zip`**: a 3D gallery of 30 photos.
 
-Unzip, read `README.txt`, double-click the launcher (Windows). The project: [Web_3d](https://github.com/Klaatou/Web_3d).
+Unzip, read `README.txt`, double-click the launcher (Windows, macOS) or type sh lancer-region.sh in a terminal (Linux). The project: [Web_3d](https://github.com/Klaatou/Web_3d).
