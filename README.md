@@ -51,4 +51,3 @@ Two ready-to-use packages, to download from the [releases page](https://github.c
 - **`galerie-photos.zip`**: a 3D gallery of 30 photos.
 
 Unzip, read `README.txt`, double-click the launcher (Windows, macOS) or type `sh lancer-region.sh` in a terminal (Linux). The project: [Web_3d](https://github.com/Klaatou/Web_3d).
-
