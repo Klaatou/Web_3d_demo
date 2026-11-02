@@ -6,7 +6,7 @@
 
 ## Français
 
-Deux régions OpenSim à visiter dans le navigateur, sans rien installer : **[ouvrir la démo](https://klaatou.github.io/Web_3d_demo/)**. 
+Deux "régions" OpenSim à visiter dans le navigateur, sans rien installer : **[ouvrir la démo](https://klaatou.github.io/Web_3d_demo/)**. 
 
 **[Menu des "régions" en démo](https://klaatou.github.io/Web_3d_demo/carte.html)**
 
@@ -28,7 +28,7 @@ Dézipper, lire `README.txt`, double-cliquer sur le lanceur (Windows, macOS) ou 
 
 ## English
 
-Two OpenSim regions to visit in the browser, with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**. 
+Two OpenSim "regions" to visit in the browser, with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**. 
 
 **[Demo "regions" menu](https://klaatou.github.io/Web_3d_demo/carte.html)**
 
@@ -47,3 +47,4 @@ Two ready-to-use packages, to download from the [releases page](https://github.c
 - **`galerie-photos.zip`**: a 3D gallery of 30 photos.
 
 Unzip, read `README.txt`, double-click the launcher (Windows, macOS) or type sh lancer-region.sh in a terminal (Linux). The project: [Web_3d](https://github.com/Klaatou/Web_3d).
+
