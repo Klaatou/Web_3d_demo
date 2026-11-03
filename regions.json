@@ -33,6 +33,17 @@
    "room": "ShowRoom3D",
    "thumb": "ShowRoom3D/ShowRoom3D.jpg",
    "presence": "wss://web-3d.tailce268a.ts.net"
+  },
+  {
+   "id": "houses",
+   "name": "Houses",
+   "url": "index.html?region=houses/houses",
+   "x": 3,
+   "y": 0,
+   "spawn": "",
+   "room": "houses",
+   "thumb": "houses/houses.png",
+   "presence": "wss://web-3d.tailce268a.ts.net"
   }
  ]
 }

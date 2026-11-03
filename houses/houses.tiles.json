@@ -1,0 +1,2437 @@
+{
+ "version": 1,
+ "generator": "glb2tiles v31 (22/10/2026)",
+ "source": "Houses-terrain.glb",
+ "extent": {
+  "min": [
+   -52.539707090703544,
+   -16.654255677490234,
+   -1129.1265124290014
+  ],
+  "max": [
+   1031.8949310165242,
+   598.1643519897461,
+   12.798881644982144
+  ]
+ },
+ "params": {
+  "budgetMo": 32.0,
+  "budgetTriangles": 1500000,
+  "minCell": 16.0,
+  "wholeWeightMo": 16.0,
+  "wholeExtent": 256.0,
+  "thresholdMo": 150.0,
+  "thresholdTriangles": 3000000,
+  "outlier": 1000.0
+ },
+ "warnings": [],
+ "roots": {
+  "whole": 1696,
+  "split": 11
+ },
+ "duplication": 1.183,
+ "replacedImages": {
+  "distinct": 664,
+  "occurrences": 778,
+  "grey": 128
+ },
+ "tiles": [
+  {
+   "file": "houses.tiles/T_2_1_0.glb",
+   "level": 2,
+   "i": 1,
+   "j": 0,
+   "min": [
+    203.06400510080132,
+    0.49900001287460327,
+    -1029.9676038811556
+   ],
+   "max": [
+    515.012773704231,
+    167.39875198448902,
+    -768.0
+   ],
+   "instances": 747,
+   "triangles": 172470,
+   "bytes": 4871424,
+   "geometryBytes": 3042188,
+   "imageBytes": 758304,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_2_2_0.glb",
+   "level": 2,
+   "i": 2,
+   "j": 0,
+   "min": [
+    496.8025024818024,
+    20.178685557525498,
+    -1024.0170814714124
+   ],
+   "max": [
+    774.607003499573,
+    344.44897378540037,
+    -768.0
+   ],
+   "instances": 852,
+   "triangles": 687081,
+   "bytes": 4888664,
+   "geometryBytes": 3694484,
+   "imageBytes": 711096,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_2_3_0.glb",
+   "level": 2,
+   "i": 3,
+   "j": 0,
+   "min": [
+    768.0,
+    20.248771302465773,
+    -1023.0
+   ],
+   "max": [
+    1023.0,
+    343.4767254379316,
+    -768.0
+   ],
+   "instances": 62,
+   "triangles": 143999,
+   "bytes": 4071032,
+   "geometryBytes": 3765740,
+   "imageBytes": 202836,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_2_3_1.glb",
+   "level": 2,
+   "i": 3,
+   "j": 1,
+   "min": [
+    768.0,
+    19.295889846451797,
+    -850.8441286120462
+   ],
+   "max": [
+    1023.0,
+    79.34911775324441,
+    -512.0
+   ],
+   "instances": 537,
+   "triangles": 291910,
+   "bytes": 7078368,
+   "geometryBytes": 5161156,
+   "imageBytes": 1324368,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_3_0_0.glb",
+   "level": 3,
+   "i": 0,
+   "j": 0,
+   "min": [
+    -52.539707090703544,
+    -15.595520797905692,
+    -1129.1265124290014
+   ],
+   "max": [
+    202.63095073242187,
+    83.3860398843421,
+    -849.9732072450948
+   ],
+   "instances": 673,
+   "triangles": 211908,
+   "bytes": 8505164,
+   "geometryBytes": 3533336,
+   "imageBytes": 2892756,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_3_0_1.glb",
+   "level": 3,
+   "i": 0,
+   "j": 1,
+   "min": [
+    -7.701497030084624,
+    3.9326004768564626,
+    -935.4571930636537
+   ],
+   "max": [
+    138.5833873173159,
+    75.45375415951038,
+    -768.0
+   ],
+   "instances": 547,
+   "triangles": 427889,
+   "bytes": 14071996,
+   "geometryBytes": 7890512,
+   "imageBytes": 5195548,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_3_0_3.glb",
+   "level": 3,
+   "i": 0,
+   "j": 3,
+   "min": [
+    0.0,
+    6.888999938964844,
+    -672.2842234203674
+   ],
+   "max": [
+    133.60252254029967,
+    69.1093123960297,
+    -512.0
+   ],
+   "instances": 1337,
+   "triangles": 834908,
+   "bytes": 34433436,
+   "geometryBytes": 15368960,
+   "imageBytes": 15650756,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_3_0_5.glb",
+   "level": 3,
+   "i": 0,
+   "j": 5,
+   "min": [
+    -1.9692141122273572,
+    15.779999732971191,
+    -415.4678496551514
+   ],
+   "max": [
+    256.06006103515625,
+    69.07628823913294,
+    -256.0
+   ],
+   "instances": 2611,
+   "triangles": 1238968,
+   "bytes": 34781032,
+   "geometryBytes": 20099200,
+   "imageBytes": 10655908,
+   "replacedImages": 22
+  },
+  {
+   "file": "houses.tiles/T_3_1_0.glb",
+   "level": 3,
+   "i": 1,
+   "j": 0,
+   "min": [
+    116.17085938778533,
+    5.219371010427096,
+    -1032.00532218403
+   ],
+   "max": [
+    256.0,
+    50.68579253719055,
+    -861.8146176256067
+   ],
+   "instances": 1085,
+   "triangles": 566602,
+   "bytes": 9566620,
+   "geometryBytes": 5565088,
+   "imageBytes": 3163148,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_3_1_1.glb",
+   "level": 3,
+   "i": 1,
+   "j": 1,
+   "min": [
+    100.03089958324891,
+    16.705287145069537,
+    -968.4743219878513
+   ],
+   "max": [
+    264.12407448098276,
+    56.25121234145065,
+    -768.0
+   ],
+   "instances": 464,
+   "triangles": 369142,
+   "bytes": 8870748,
+   "geometryBytes": 5728232,
+   "imageBytes": 2257752,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_3_1_2.glb",
+   "level": 3,
+   "i": 1,
+   "j": 2,
+   "min": [
+    121.3549254539715,
+    16.474229856825907,
+    -824.8710010658972
+   ],
+   "max": [
+    256.0,
+    161.51521786219536,
+    -640.0
+   ],
+   "instances": 608,
+   "triangles": 204744,
+   "bytes": 11461980,
+   "geometryBytes": 4527196,
+   "imageBytes": 5139472,
+   "replacedImages": 7
+  },
+  {
+   "file": "houses.tiles/T_3_1_4.glb",
+   "level": 3,
+   "i": 1,
+   "j": 4,
+   "min": [
+    123.49190000000002,
+    15.283856735756292,
+    -546.9324020785799
+   ],
+   "max": [
+    256.0,
+    75.54065415951045,
+    -383.7994891595505
+   ],
+   "instances": 1920,
+   "triangles": 1000515,
+   "bytes": 30024052,
+   "geometryBytes": 14758700,
+   "imageBytes": 10506928,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_3_1_6.glb",
+   "level": 3,
+   "i": 1,
+   "j": 6,
+   "min": [
+    125.02506729125977,
+    9.018064651167988,
+    -273.87537831357474
+   ],
+   "max": [
+    266.61793101652415,
+    104.823117339626,
+    -128.0
+   ],
+   "instances": 992,
+   "triangles": 666080,
+   "bytes": 24929204,
+   "geometryBytes": 15932512,
+   "imageBytes": 7304764,
+   "replacedImages": 10
+  },
+  {
+   "file": "houses.tiles/T_3_2_2.glb",
+   "level": 3,
+   "i": 2,
+   "j": 2,
+   "min": [
+    244.78059988098144,
+    7.597597936246116,
+    -804.8832613413458
+   ],
+   "max": [
+    403.03772255719633,
+    88.60749317286087,
+    -640.0
+   ],
+   "instances": 786,
+   "triangles": 564496,
+   "bytes": 24663712,
+   "geometryBytes": 15987256,
+   "imageBytes": 7331772,
+   "replacedImages": 19
+  },
+  {
+   "file": "houses.tiles/T_3_2_3.glb",
+   "level": 3,
+   "i": 2,
+   "j": 3,
+   "min": [
+    256.0,
+    17.642000198364258,
+    -652.958154317014
+   ],
+   "max": [
+    439.53300095367433,
+    46.289600935315704,
+    -512.0
+   ],
+   "instances": 1292,
+   "triangles": 366168,
+   "bytes": 11605600,
+   "geometryBytes": 7666932,
+   "imageBytes": 2752892,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_3_2_4.glb",
+   "level": 3,
+   "i": 2,
+   "j": 4,
+   "min": [
+    256.0,
+    20.5,
+    -515.476013040554
+   ],
+   "max": [
+    398.98331896245975,
+    257.9983986186655,
+    -384.0
+   ],
+   "instances": 334,
+   "triangles": 135008,
+   "bytes": 5007192,
+   "geometryBytes": 3817320,
+   "imageBytes": 562536,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_3_3_2.glb",
+   "level": 3,
+   "i": 3,
+   "j": 2,
+   "min": [
+    384.0,
+    19.62618869209095,
+    -768.0
+   ],
+   "max": [
+    512.0,
+    103.95220310026757,
+    -640.0
+   ],
+   "instances": 741,
+   "triangles": 752451,
+   "bytes": 12815856,
+   "geometryBytes": 9828204,
+   "imageBytes": 2416228,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_3_3_3.glb",
+   "level": 3,
+   "i": 3,
+   "j": 3,
+   "min": [
+    384.0,
+    18.44787603676769,
+    -721.456068165632
+   ],
+   "max": [
+    512.0,
+    66.81838299120699,
+    -465.4329321509824
+   ],
+   "instances": 1038,
+   "triangles": 213810,
+   "bytes": 9882784,
+   "geometryBytes": 6481424,
+   "imageBytes": 2181276,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_3_3_4.glb",
+   "level": 3,
+   "i": 3,
+   "j": 4,
+   "min": [
+    333.0463578028171,
+    15.938323150081255,
+    -512.0
+   ],
+   "max": [
+    526.383,
+    276.65302681680885,
+    -349.2017972132373
+   ],
+   "instances": 467,
+   "triangles": 716799,
+   "bytes": 21724296,
+   "geometryBytes": 13851172,
+   "imageBytes": 7033348,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_3_4_2.glb",
+   "level": 3,
+   "i": 4,
+   "j": 2,
+   "min": [
+    499.83299374149664,
+    16.634643537954492,
+    -768.0
+   ],
+   "max": [
+    669.1000223461914,
+    119.86786959637745,
+    -640.0
+   ],
+   "instances": 1469,
+   "triangles": 524348,
+   "bytes": 16748916,
+   "geometryBytes": 12527628,
+   "imageBytes": 2896832,
+   "replacedImages": 19
+  },
+  {
+   "file": "houses.tiles/T_3_4_3.glb",
+   "level": 3,
+   "i": 4,
+   "j": 3,
+   "min": [
+    509.4921835214234,
+    17.854979999999998,
+    -659.5667195367432
+   ],
+   "max": [
+    640.4834003496912,
+    53.701499999999996,
+    -512.0
+   ],
+   "instances": 764,
+   "triangles": 374719,
+   "bytes": 19410620,
+   "geometryBytes": 12634632,
+   "imageBytes": 4444888,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_3_4_4.glb",
+   "level": 3,
+   "i": 4,
+   "j": 4,
+   "min": [
+    495.69063238346064,
+    18.087056403970784,
+    -525.8831607935019
+   ],
+   "max": [
+    640.022599861145,
+    127.37770053212502,
+    -384.0
+   ],
+   "instances": 1592,
+   "triangles": 785809,
+   "bytes": 26999032,
+   "geometryBytes": 18973760,
+   "imageBytes": 5528080,
+   "replacedImages": 19
+  },
+  {
+   "file": "houses.tiles/T_3_4_6.glb",
+   "level": 3,
+   "i": 4,
+   "j": 6,
+   "min": [
+    512.0,
+    2.195539909362793,
+    -274.891990940094
+   ],
+   "max": [
+    667.0557779296226,
+    74.86370145162641,
+    -128.0
+   ],
+   "instances": 1744,
+   "triangles": 413720,
+   "bytes": 19783280,
+   "geometryBytes": 14007596,
+   "imageBytes": 3584964,
+   "replacedImages": 4
+  },
+  {
+   "file": "houses.tiles/T_3_5_2.glb",
+   "level": 3,
+   "i": 5,
+   "j": 2,
+   "min": [
+    640.0,
+    20.5,
+    -818.2141013307561
+   ],
+   "max": [
+    768.0,
+    318.29859006318276,
+    -640.0
+   ],
+   "instances": 913,
+   "triangles": 598496,
+   "bytes": 3741652,
+   "geometryBytes": 2233208,
+   "imageBytes": 978548,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_3_5_3.glb",
+   "level": 3,
+   "i": 5,
+   "j": 3,
+   "min": [
+    633.0519987487793,
+    19.150204785905622,
+    -768.0170678490176
+   ],
+   "max": [
+    774.607003499573,
+    598.1643519897461,
+    -493.6983038085938
+   ],
+   "instances": 283,
+   "triangles": 249687,
+   "bytes": 16200160,
+   "geometryBytes": 13118052,
+   "imageBytes": 2504956,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_3_5_4.glb",
+   "level": 3,
+   "i": 5,
+   "j": 4,
+   "min": [
+    640.0,
+    7.351588362824028,
+    -518.7994318490267
+   ],
+   "max": [
+    794.5857512760166,
+    279.3686208946569,
+    -301.4309880469483
+   ],
+   "instances": 1015,
+   "triangles": 713037,
+   "bytes": 29083532,
+   "geometryBytes": 17940780,
+   "imageBytes": 9262652,
+   "replacedImages": 11
+  },
+  {
+   "file": "houses.tiles/T_3_5_6.glb",
+   "level": 3,
+   "i": 5,
+   "j": 6,
+   "min": [
+    640.0,
+    14.552772260105943,
+    -289.4314799887818
+   ],
+   "max": [
+    788.0760878227769,
+    57.822353711734145,
+    -128.0
+   ],
+   "instances": 2206,
+   "triangles": 1086584,
+   "bytes": 34554184,
+   "geometryBytes": 21170584,
+   "imageBytes": 9259616,
+   "replacedImages": 13
+  },
+  {
+   "file": "houses.tiles/T_3_5_7.glb",
+   "level": 3,
+   "i": 5,
+   "j": 7,
+   "min": [
+    640.0,
+    -0.004284387067070128,
+    -162.28531242900124
+   ],
+   "max": [
+    787.0066705367035,
+    67.60640019342567,
+    1.5009141763704896
+   ],
+   "instances": 1181,
+   "triangles": 610467,
+   "bytes": 28756900,
+   "geometryBytes": 17709456,
+   "imageBytes": 8669316,
+   "replacedImages": 15
+  },
+  {
+   "file": "houses.tiles/T_3_6_4.glb",
+   "level": 3,
+   "i": 6,
+   "j": 4,
+   "min": [
+    768.0,
+    20.04999859319599,
+    -512.0
+   ],
+   "max": [
+    896.0,
+    46.2700014540257,
+    -384.0
+   ],
+   "instances": 258,
+   "triangles": 74733,
+   "bytes": 4037260,
+   "geometryBytes": 2431560,
+   "imageBytes": 1167276,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_3_6_6.glb",
+   "level": 3,
+   "i": 6,
+   "j": 6,
+   "min": [
+    768.0,
+    11.61001116189891,
+    -289.8393963902535
+   ],
+   "max": [
+    938.7064420474627,
+    43.931956207918546,
+    -128.0
+   ],
+   "instances": 1408,
+   "triangles": 1132960,
+   "bytes": 18390720,
+   "geometryBytes": 12765568,
+   "imageBytes": 3651304,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_3_6_7.glb",
+   "level": 3,
+   "i": 6,
+   "j": 7,
+   "min": [
+    763.5820270300071,
+    0.0,
+    -131.53793015289307
+   ],
+   "max": [
+    946.5519910123829,
+    72.81234172999008,
+    0.20247674082210576
+   ],
+   "instances": 1217,
+   "triangles": 1063838,
+   "bytes": 30980688,
+   "geometryBytes": 19123644,
+   "imageBytes": 10097808,
+   "replacedImages": 17
+  },
+  {
+   "file": "houses.tiles/T_3_7_4.glb",
+   "level": 3,
+   "i": 7,
+   "j": 4,
+   "min": [
+    873.8783812569336,
+    19.832399528503416,
+    -512.0
+   ],
+   "max": [
+    1023.0,
+    38.82418029296875,
+    -364.0522411272461
+   ],
+   "instances": 10,
+   "triangles": 49619,
+   "bytes": 1736940,
+   "geometryBytes": 1545176,
+   "imageBytes": 168604,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_3_7_5.glb",
+   "level": 3,
+   "i": 7,
+   "j": 5,
+   "min": [
+    896.0,
+    14.998000144958496,
+    -384.0
+   ],
+   "max": [
+    1023.0,
+    117.0273065452944,
+    -256.0
+   ],
+   "instances": 518,
+   "triangles": 757363,
+   "bytes": 24914044,
+   "geometryBytes": 20107796,
+   "imageBytes": 4076048,
+   "replacedImages": 32
+  },
+  {
+   "file": "houses.tiles/T_3_7_6.glb",
+   "level": 3,
+   "i": 7,
+   "j": 6,
+   "min": [
+    896.0,
+    0.0,
+    -274.1676695936227
+   ],
+   "max": [
+    1029.0558884833977,
+    44.73382734395955,
+    -128.0
+   ],
+   "instances": 320,
+   "triangles": 352981,
+   "bytes": 12318024,
+   "geometryBytes": 8536096,
+   "imageBytes": 3263220,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_3_7_7.glb",
+   "level": 3,
+   "i": 7,
+   "j": 7,
+   "min": [
+    896.0,
+    0.0,
+    -140.68366210359417
+   ],
+   "max": [
+    1031.8949310165242,
+    47.37332841025354,
+    2.4700116925810143
+   ],
+   "instances": 663,
+   "triangles": 883498,
+   "bytes": 34161172,
+   "geometryBytes": 24094596,
+   "imageBytes": 8937124,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_4_0_4.glb",
+   "level": 4,
+   "i": 0,
+   "j": 4,
+   "min": [
+    0.0,
+    19.106518374515733,
+    -794.4879164661336
+   ],
+   "max": [
+    86.42332249438219,
+    114.75865794670706,
+    -704.0
+   ],
+   "instances": 488,
+   "triangles": 389684,
+   "bytes": 14103104,
+   "geometryBytes": 6323396,
+   "imageBytes": 6240804,
+   "replacedImages": 53
+  },
+  {
+   "file": "houses.tiles/T_4_0_5.glb",
+   "level": 4,
+   "i": 0,
+   "j": 5,
+   "min": [
+    0.0,
+    19.596547520515244,
+    -752.2009726572338
+   ],
+   "max": [
+    73.54531410471702,
+    92.47810947403663,
+    -640.0
+   ],
+   "instances": 1137,
+   "triangles": 1293684,
+   "bytes": 27563428,
+   "geometryBytes": 14811240,
+   "imageBytes": 10339556,
+   "replacedImages": 79
+  },
+  {
+   "file": "houses.tiles/T_4_0_8.glb",
+   "level": 4,
+   "i": 0,
+   "j": 8,
+   "min": [
+    0.0,
+    19.477928489118984,
+    -538.8873038773152
+   ],
+   "max": [
+    64.0,
+    48.446701736525,
+    -448.0
+   ],
+   "instances": 99,
+   "triangles": 60564,
+   "bytes": 2739184,
+   "geometryBytes": 1043672,
+   "imageBytes": 1355420,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_0_9.glb",
+   "level": 4,
+   "i": 0,
+   "j": 9,
+   "min": [
+    -35.09869623552804,
+    8.35587,
+    -477.7458036844603
+   ],
+   "max": [
+    64.0,
+    62.42395162328941,
+    -384.0
+   ],
+   "instances": 421,
+   "triangles": 378788,
+   "bytes": 15747528,
+   "geometryBytes": 8735400,
+   "imageBytes": 6011164,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_0_12.glb",
+   "level": 4,
+   "i": 0,
+   "j": 12,
+   "min": [
+    -1.3681411628395108,
+    0.0,
+    -273.41039147114833
+   ],
+   "max": [
+    65.2417454067057,
+    74.84606459210849,
+    -192.0
+   ],
+   "instances": 161,
+   "triangles": 142718,
+   "bytes": 5288084,
+   "geometryBytes": 2868128,
+   "imageBytes": 2161716,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_4_0_13.glb",
+   "level": 4,
+   "i": 0,
+   "j": 13,
+   "min": [
+    0.0,
+    0.0,
+    -212.55684371097092
+   ],
+   "max": [
+    73.34844926370381,
+    44.7582317812463,
+    -128.0
+   ],
+   "instances": 145,
+   "triangles": 451899,
+   "bytes": 15128196,
+   "geometryBytes": 13739152,
+   "imageBytes": 1082120,
+   "replacedImages": 11
+  },
+  {
+   "file": "houses.tiles/T_4_0_14.glb",
+   "level": 4,
+   "i": 0,
+   "j": 14,
+   "min": [
+    0.0,
+    15.79800033569336,
+    -144.221005206441
+   ],
+   "max": [
+    75.5597004428625,
+    45.43280057220459,
+    -59.23188203460434
+   ],
+   "instances": 774,
+   "triangles": 835137,
+   "bytes": 24488304,
+   "geometryBytes": 18643500,
+   "imageBytes": 4262756,
+   "replacedImages": 8
+  },
+  {
+   "file": "houses.tiles/T_4_0_15.glb",
+   "level": 4,
+   "i": 0,
+   "j": 15,
+   "min": [
+    0.0,
+    7.058000087738037,
+    -84.52922873755085
+   ],
+   "max": [
+    64.0,
+    67.29308575507531,
+    5.899968918760845
+   ],
+   "instances": 57,
+   "triangles": 68703,
+   "bytes": 3362840,
+   "geometryBytes": 1891804,
+   "imageBytes": 1300756,
+   "replacedImages": 3
+  },
+  {
+   "file": "houses.tiles/T_4_1_4.glb",
+   "level": 4,
+   "i": 1,
+   "j": 4,
+   "min": [
+    43.53786820031949,
+    19.612742933505746,
+    -802.7203593270842
+   ],
+   "max": [
+    128.78183593328208,
+    76.8861157291045,
+    -704.0
+   ],
+   "instances": 402,
+   "triangles": 412070,
+   "bytes": 12810288,
+   "geometryBytes": 6564460,
+   "imageBytes": 5197916,
+   "replacedImages": 23
+  },
+  {
+   "file": "houses.tiles/T_4_1_5.glb",
+   "level": 4,
+   "i": 1,
+   "j": 5,
+   "min": [
+    43.53295403421198,
+    18.109407133436868,
+    -752.2233166607269
+   ],
+   "max": [
+    128.0,
+    68.13651063631106,
+    -640.0
+   ],
+   "instances": 295,
+   "triangles": 289222,
+   "bytes": 8969744,
+   "geometryBytes": 4959124,
+   "imageBytes": 3214972,
+   "replacedImages": 19
+  },
+  {
+   "file": "houses.tiles/T_4_1_8.glb",
+   "level": 4,
+   "i": 1,
+   "j": 8,
+   "min": [
+    48.94871695314803,
+    18.234583941712025,
+    -546.257700782228
+   ],
+   "max": [
+    142.10480009460449,
+    60.246077744642534,
+    -448.0
+   ],
+   "instances": 446,
+   "triangles": 153477,
+   "bytes": 12796504,
+   "geometryBytes": 4655904,
+   "imageBytes": 6520808,
+   "replacedImages": 4
+  },
+  {
+   "file": "houses.tiles/T_4_1_9.glb",
+   "level": 4,
+   "i": 1,
+   "j": 9,
+   "min": [
+    53.003299999999996,
+    20.4999989449886,
+    -460.6229960258189
+   ],
+   "max": [
+    128.0,
+    58.992500011920924,
+    -384.0
+   ],
+   "instances": 229,
+   "triangles": 119769,
+   "bytes": 7522296,
+   "geometryBytes": 4206408,
+   "imageBytes": 2951760,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_4_1_12.glb",
+   "level": 4,
+   "i": 1,
+   "j": 12,
+   "min": [
+    56.65959187316895,
+    1.5399999618530273,
+    -269.28270153298746
+   ],
+   "max": [
+    134.61864540670572,
+    32.15525761519257,
+    -192.0
+   ],
+   "instances": 274,
+   "triangles": 191257,
+   "bytes": 9358452,
+   "geometryBytes": 7054944,
+   "imageBytes": 1734608,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_1_13.glb",
+   "level": 4,
+   "i": 1,
+   "j": 13,
+   "min": [
+    64.0,
+    0.0,
+    -203.52228128432728
+   ],
+   "max": [
+    144.9491653382919,
+    51.81385383579278,
+    -128.0
+   ],
+   "instances": 182,
+   "triangles": 92860,
+   "bytes": 7551508,
+   "geometryBytes": 2863360,
+   "imageBytes": 4303084,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_4_1_14.glb",
+   "level": 4,
+   "i": 1,
+   "j": 14,
+   "min": [
+    57.857895841970674,
+    15.97139102230772,
+    -140.77955953477763
+   ],
+   "max": [
+    128.46285625365874,
+    61.80673775682084,
+    -64.0
+   ],
+   "instances": 357,
+   "triangles": 228975,
+   "bytes": 9544968,
+   "geometryBytes": 3772888,
+   "imageBytes": 5140176,
+   "replacedImages": 4
+  },
+  {
+   "file": "houses.tiles/T_4_1_15.glb",
+   "level": 4,
+   "i": 1,
+   "j": 15,
+   "min": [
+    37.41488422105715,
+    18.391596192162055,
+    -64.0
+   ],
+   "max": [
+    128.0,
+    32.19028248170487,
+    0.0
+   ],
+   "instances": 321,
+   "triangles": 286734,
+   "bytes": 12993048,
+   "geometryBytes": 8545300,
+   "imageBytes": 3839764,
+   "replacedImages": 5
+  },
+  {
+   "file": "houses.tiles/T_4_2_6.glb",
+   "level": 4,
+   "i": 2,
+   "j": 6,
+   "min": [
+    86.42258524627184,
+    -3.787473563100477,
+    -690.3705457536537
+   ],
+   "max": [
+    192.0,
+    143.87549264445911,
+    -576.0
+   ],
+   "instances": 279,
+   "triangles": 134576,
+   "bytes": 16582908,
+   "geometryBytes": 3553380,
+   "imageBytes": 12271476,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_4_2_7.glb",
+   "level": 4,
+   "i": 2,
+   "j": 7,
+   "min": [
+    128.0,
+    15.332456735756246,
+    -598.3123028457853
+   ],
+   "max": [
+    203.19910089109308,
+    55.086400815409185,
+    -512.0
+   ],
+   "instances": 427,
+   "triangles": 551668,
+   "bytes": 6342964,
+   "geometryBytes": 5032576,
+   "imageBytes": 700352,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_2_10.glb",
+   "level": 4,
+   "i": 2,
+   "j": 10,
+   "min": [
+    128.0,
+    15.180156735756288,
+    -409.14209800913915
+   ],
+   "max": [
+    199.73203408748068,
+    54.934100815409145,
+    -320.0
+   ],
+   "instances": 332,
+   "triangles": 566442,
+   "bytes": 8218024,
+   "geometryBytes": 6816092,
+   "imageBytes": 797656,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_2_11.glb",
+   "level": 4,
+   "i": 2,
+   "j": 11,
+   "min": [
+    123.1833545932943,
+    14.172035609224949,
+    -333.761362991333
+   ],
+   "max": [
+    210.36328971075585,
+    39.31936912289802,
+    -256.0
+   ],
+   "instances": 662,
+   "triangles": 911083,
+   "bytes": 16347428,
+   "geometryBytes": 12965584,
+   "imageBytes": 2771788,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_2_14.glb",
+   "level": 4,
+   "i": 2,
+   "j": 14,
+   "min": [
+    125.97045080787362,
+    1.3172833397721662,
+    -141.88586494346654
+   ],
+   "max": [
+    194.51639779190975,
+    38.55459956972903,
+    -64.0
+   ],
+   "instances": 600,
+   "triangles": 757636,
+   "bytes": 21863136,
+   "geometryBytes": 13923004,
+   "imageBytes": 6949108,
+   "replacedImages": 54
+  },
+  {
+   "file": "houses.tiles/T_4_2_15.glb",
+   "level": 4,
+   "i": 2,
+   "j": 15,
+   "min": [
+    128.0,
+    19.416583555153597,
+    -77.79576484000197
+   ],
+   "max": [
+    204.61183543132995,
+    46.841600680208195,
+    0.0
+   ],
+   "instances": 510,
+   "triangles": 465071,
+   "bytes": 15357144,
+   "geometryBytes": 13194656,
+   "imageBytes": 1175372,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_3_6.glb",
+   "level": 4,
+   "i": 3,
+   "j": 6,
+   "min": [
+    191.08099932207298,
+    -16.654255677490234,
+    -661.5559378576265
+   ],
+   "max": [
+    256.0,
+    82.62869567749024,
+    -576.0
+   ],
+   "instances": 131,
+   "triangles": 309623,
+   "bytes": 7355180,
+   "geometryBytes": 6586916,
+   "imageBytes": 565764,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_3_7.glb",
+   "level": 4,
+   "i": 3,
+   "j": 7,
+   "min": [
+    184.65610940560563,
+    20.05680166662159,
+    -621.9625559452671
+   ],
+   "max": [
+    265.85958970675097,
+    116.59525348461308,
+    -512.0
+   ],
+   "instances": 103,
+   "triangles": 383654,
+   "bytes": 15104288,
+   "geometryBytes": 9886968,
+   "imageBytes": 4740004,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_3_10.glb",
+   "level": 4,
+   "i": 3,
+   "j": 10,
+   "min": [
+    192.0,
+    15.169747205920684,
+    -393.0825475425154
+   ],
+   "max": [
+    256.5187005159807,
+    38.08895905878314,
+    -320.0
+   ],
+   "instances": 143,
+   "triangles": 113776,
+   "bytes": 3934884,
+   "geometryBytes": 2882900,
+   "imageBytes": 871240,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_4_3_11.glb",
+   "level": 4,
+   "i": 3,
+   "j": 11,
+   "min": [
+    192.0,
+    15.468629573272207,
+    -334.46534599891186
+   ],
+   "max": [
+    266.65193101652414,
+    39.930008985769625,
+    -256.0
+   ],
+   "instances": 1105,
+   "triangles": 1283042,
+   "bytes": 33848472,
+   "geometryBytes": 25863224,
+   "imageBytes": 6066676,
+   "replacedImages": 8
+  },
+  {
+   "file": "houses.tiles/T_4_3_14.glb",
+   "level": 4,
+   "i": 3,
+   "j": 14,
+   "min": [
+    183.2715216763958,
+    16.35099983215332,
+    -135.36868716127583
+   ],
+   "max": [
+    256.0,
+    45.686743902371006,
+    -64.0
+   ],
+   "instances": 290,
+   "triangles": 342435,
+   "bytes": 10300380,
+   "geometryBytes": 7557808,
+   "imageBytes": 2064176,
+   "replacedImages": 11
+  },
+  {
+   "file": "houses.tiles/T_4_3_15.glb",
+   "level": 4,
+   "i": 3,
+   "j": 15,
+   "min": [
+    184.28068499280025,
+    11.62399959564209,
+    -76.05056541573161
+   ],
+   "max": [
+    256.0,
+    197.3930622091619,
+    0.0
+   ],
+   "instances": 410,
+   "triangles": 327294,
+   "bytes": 10723156,
+   "geometryBytes": 8703880,
+   "imageBytes": 1336160,
+   "replacedImages": 4
+  },
+  {
+   "file": "houses.tiles/T_4_4_10.glb",
+   "level": 4,
+   "i": 4,
+   "j": 10,
+   "min": [
+    243.42804231936447,
+    11.734000205993652,
+    -385.7607702041836
+   ],
+   "max": [
+    320.0,
+    44.86821808561627,
+    -309.63513478145165
+   ],
+   "instances": 1089,
+   "triangles": 821514,
+   "bytes": 14470952,
+   "geometryBytes": 9250848,
+   "imageBytes": 3108492,
+   "replacedImages": 26
+  },
+  {
+   "file": "houses.tiles/T_4_4_12.glb",
+   "level": 4,
+   "i": 4,
+   "j": 12,
+   "min": [
+    252.9992558918302,
+    19.9847502532959,
+    -272.0234568211109
+   ],
+   "max": [
+    344.52042345366476,
+    50.3911497467041,
+    -170.85499429725076
+   ],
+   "instances": 270,
+   "triangles": 148511,
+   "bytes": 7571876,
+   "geometryBytes": 3662708,
+   "imageBytes": 3331280,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_4_4_13.glb",
+   "level": 4,
+   "i": 4,
+   "j": 13,
+   "min": [
+    250.6635997496605,
+    17.525075672894445,
+    -203.58502341288576
+   ],
+   "max": [
+    328.14924679670315,
+    40.63556451561947,
+    -128.0
+   ],
+   "instances": 410,
+   "triangles": 391542,
+   "bytes": 16049396,
+   "geometryBytes": 13434872,
+   "imageBytes": 1460500,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_4_14.glb",
+   "level": 4,
+   "i": 4,
+   "j": 14,
+   "min": [
+    254.8061012573242,
+    13.960295027160644,
+    -132.03105024719238
+   ],
+   "max": [
+    322.66470890496385,
+    42.045594399642944,
+    -60.18492463034684
+   ],
+   "instances": 319,
+   "triangles": 96686,
+   "bytes": 4455312,
+   "geometryBytes": 2922200,
+   "imageBytes": 873376,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_4_15.glb",
+   "level": 4,
+   "i": 4,
+   "j": 15,
+   "min": [
+    250.055784073696,
+    18.890616172905432,
+    -82.94506255724674
+   ],
+   "max": [
+    322.4896710212274,
+    35.57400824390427,
+    0.0
+   ],
+   "instances": 576,
+   "triangles": 703260,
+   "bytes": 26715524,
+   "geometryBytes": 19470584,
+   "imageBytes": 6427084,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_5_10.glb",
+   "level": 4,
+   "i": 5,
+   "j": 10,
+   "min": [
+    320.0,
+    11.583000183105469,
+    -384.0
+   ],
+   "max": [
+    384.0,
+    20.5,
+    -320.0
+   ],
+   "instances": 1,
+   "triangles": 8192,
+   "bytes": 168596,
+   "geometryBytes": 167452,
+   "imageBytes": 0,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_5_11.glb",
+   "level": 4,
+   "i": 5,
+   "j": 11,
+   "min": [
+    256.0598089648438,
+    0.0,
+    -330.81416437682725
+   ],
+   "max": [
+    512.0599310351563,
+    27.035522504788002,
+    -256.0
+   ],
+   "instances": 82,
+   "triangles": 104916,
+   "bytes": 4624312,
+   "geometryBytes": 3715768,
+   "imageBytes": 748680,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_5_12.glb",
+   "level": 4,
+   "i": 5,
+   "j": 12,
+   "min": [
+    320.0,
+    4.552999973297119,
+    -272.4490051898975
+   ],
+   "max": [
+    393.9335904180043,
+    45.39680018202889,
+    -191.66129169200724
+   ],
+   "instances": 133,
+   "triangles": 114524,
+   "bytes": 5665192,
+   "geometryBytes": 3524724,
+   "imageBytes": 1898632,
+   "replacedImages": 3
+  },
+  {
+   "file": "houses.tiles/T_4_5_13.glb",
+   "level": 4,
+   "i": 5,
+   "j": 13,
+   "min": [
+    320.0,
+    20.31201527553663,
+    -210.7722412079557
+   ],
+   "max": [
+    402.6843507181954,
+    45.95760057220459,
+    -128.0
+   ],
+   "instances": 869,
+   "triangles": 856894,
+   "bytes": 27248796,
+   "geometryBytes": 19592968,
+   "imageBytes": 6396924,
+   "replacedImages": 54
+  },
+  {
+   "file": "houses.tiles/T_4_5_14.glb",
+   "level": 4,
+   "i": 5,
+   "j": 14,
+   "min": [
+    320.0,
+    20.17430438052359,
+    -128.0
+   ],
+   "max": [
+    391.47722561685384,
+    40.36024021133423,
+    -64.0
+   ],
+   "instances": 103,
+   "triangles": 230141,
+   "bytes": 10262356,
+   "geometryBytes": 7786708,
+   "imageBytes": 2255980,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_5_15.glb",
+   "level": 4,
+   "i": 5,
+   "j": 15,
+   "min": [
+    320.0,
+    16.443478060914508,
+    -80.89321986829144
+   ],
+   "max": [
+    390.7170076293945,
+    40.15382612378138,
+    12.798881644982144
+   ],
+   "instances": 692,
+   "triangles": 303640,
+   "bytes": 12151560,
+   "geometryBytes": 6250748,
+   "imageBytes": 4775772,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_4_6_10.glb",
+   "level": 4,
+   "i": 6,
+   "j": 10,
+   "min": [
+    371.0259004814357,
+    20.5,
+    -398.1122126865994
+   ],
+   "max": [
+    448.0,
+    135.37195253537533,
+    -320.0
+   ],
+   "instances": 5,
+   "triangles": 130510,
+   "bytes": 5039924,
+   "geometryBytes": 4899280,
+   "imageBytes": 125420,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_6_11.glb",
+   "level": 4,
+   "i": 6,
+   "j": 11,
+   "min": [
+    384.0,
+    19.036049203324318,
+    -351.4581236445433
+   ],
+   "max": [
+    460.3039310165242,
+    26.8530675825402,
+    -256.0
+   ],
+   "instances": 108,
+   "triangles": 31828,
+   "bytes": 3132336,
+   "geometryBytes": 920836,
+   "imageBytes": 1853132,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_6_12.glb",
+   "level": 4,
+   "i": 6,
+   "j": 12,
+   "min": [
+    384.0,
+    12.706999778747559,
+    -269.4424459348515
+   ],
+   "max": [
+    460.52232999906715,
+    33.387334844188146,
+    -192.0
+   ],
+   "instances": 199,
+   "triangles": 80257,
+   "bytes": 5784932,
+   "geometryBytes": 2243268,
+   "imageBytes": 3159092,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_6_13.glb",
+   "level": 4,
+   "i": 6,
+   "j": 13,
+   "min": [
+    384.0,
+    3.296999931335449,
+    -208.4283845569077
+   ],
+   "max": [
+    459.0576346921529,
+    40.12265931743512,
+    -128.0
+   ],
+   "instances": 492,
+   "triangles": 670483,
+   "bytes": 21528540,
+   "geometryBytes": 15785716,
+   "imageBytes": 4779280,
+   "replacedImages": 8
+  },
+  {
+   "file": "houses.tiles/T_4_6_14.glb",
+   "level": 4,
+   "i": 6,
+   "j": 14,
+   "min": [
+    378.2959101594774,
+    11.694999694824219,
+    -138.514376990063
+   ],
+   "max": [
+    453.12602191905984,
+    35.584959659793974,
+    -64.0
+   ],
+   "instances": 285,
+   "triangles": 177639,
+   "bytes": 9054760,
+   "geometryBytes": 5814588,
+   "imageBytes": 2722992,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_6_15.glb",
+   "level": 4,
+   "i": 6,
+   "j": 15,
+   "min": [
+    384.0,
+    6.790999889373779,
+    -66.89753637761923
+   ],
+   "max": [
+    460.8930757286206,
+    41.704740203857426,
+    0.0
+   ],
+   "instances": 171,
+   "triangles": 92306,
+   "bytes": 9452716,
+   "geometryBytes": 4647804,
+   "imageBytes": 4371168,
+   "replacedImages": 3
+  },
+  {
+   "file": "houses.tiles/T_4_7_10.glb",
+   "level": 4,
+   "i": 7,
+   "j": 10,
+   "min": [
+    448.0,
+    20.499952623219368,
+    -384.0
+   ],
+   "max": [
+    512.0,
+    37.92206742893107,
+    -320.0
+   ],
+   "instances": 250,
+   "triangles": 127930,
+   "bytes": 2484276,
+   "geometryBytes": 1818020,
+   "imageBytes": 197932,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_7_11.glb",
+   "level": 4,
+   "i": 7,
+   "j": 11,
+   "min": [
+    448.0,
+    15.704003053997546,
+    -328.614248765458
+   ],
+   "max": [
+    522.4810847091351,
+    32.98143981321787,
+    -256.0
+   ],
+   "instances": 300,
+   "triangles": 644528,
+   "bytes": 28226868,
+   "geometryBytes": 26508704,
+   "imageBytes": 1190136,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_7_12.glb",
+   "level": 4,
+   "i": 7,
+   "j": 12,
+   "min": [
+    448.0,
+    12.590054795961578,
+    -274.11756684505207
+   ],
+   "max": [
+    528.7695762200217,
+    74.64710210327134,
+    -192.0
+   ],
+   "instances": 77,
+   "triangles": 85107,
+   "bytes": 4442112,
+   "geometryBytes": 3096124,
+   "imageBytes": 1155148,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_7_13.glb",
+   "level": 4,
+   "i": 7,
+   "j": 13,
+   "min": [
+    412.3308449628363,
+    1.034000039100647,
+    -212.25036268937072
+   ],
+   "max": [
+    600.0720491140229,
+    234.8232502614967,
+    -89.61316285545976
+   ],
+   "instances": 1730,
+   "triangles": 1001925,
+   "bytes": 25861408,
+   "geometryBytes": 16190536,
+   "imageBytes": 7875640,
+   "replacedImages": 15
+  },
+  {
+   "file": "houses.tiles/T_4_7_14.glb",
+   "level": 4,
+   "i": 7,
+   "j": 14,
+   "min": [
+    443.37056652917545,
+    12.519000053405762,
+    -151.34841136475782
+   ],
+   "max": [
+    517.6147465371072,
+    54.92198786475601,
+    -64.0
+   ],
+   "instances": 256,
+   "triangles": 292066,
+   "bytes": 12850324,
+   "geometryBytes": 8270940,
+   "imageBytes": 4061356,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_4_7_15.glb",
+   "level": 4,
+   "i": 7,
+   "j": 15,
+   "min": [
+    448.0,
+    19.642862205006573,
+    -102.0306059848246
+   ],
+   "max": [
+    531.5173165253548,
+    52.75522516228132,
+    0.0
+   ],
+   "instances": 345,
+   "triangles": 427048,
+   "bytes": 15696676,
+   "geometryBytes": 11061452,
+   "imageBytes": 4141756,
+   "replacedImages": 4
+  },
+  {
+   "file": "houses.tiles/T_4_8_10.glb",
+   "level": 4,
+   "i": 8,
+   "j": 10,
+   "min": [
+    512.0,
+    20.27906707260279,
+    -388.9250280799585
+   ],
+   "max": [
+    576.0,
+    45.98414408962061,
+    -320.0
+   ],
+   "instances": 258,
+   "triangles": 48706,
+   "bytes": 1207836,
+   "geometryBytes": 524040,
+   "imageBytes": 736,
+   "replacedImages": 12
+  },
+  {
+   "file": "houses.tiles/T_4_8_11.glb",
+   "level": 4,
+   "i": 8,
+   "j": 11,
+   "min": [
+    512.0,
+    18.68205997423172,
+    -330.38619412512475
+   ],
+   "max": [
+    602.033,
+    46.56337505836487,
+    -256.0
+   ],
+   "instances": 568,
+   "triangles": 1178699,
+   "bytes": 33044748,
+   "geometryBytes": 24927484,
+   "imageBytes": 6982428,
+   "replacedImages": 7
+  },
+  {
+   "file": "houses.tiles/T_4_8_14.glb",
+   "level": 4,
+   "i": 8,
+   "j": 14,
+   "min": [
+    512.0,
+    15.808854975173546,
+    -142.23974066687495
+   ],
+   "max": [
+    587.051053014503,
+    40.07786320688213,
+    -61.000387768379866
+   ],
+   "instances": 751,
+   "triangles": 328914,
+   "bytes": 11246176,
+   "geometryBytes": 7315104,
+   "imageBytes": 2517732,
+   "replacedImages": 15
+  },
+  {
+   "file": "houses.tiles/T_4_8_15.glb",
+   "level": 4,
+   "i": 8,
+   "j": 15,
+   "min": [
+    512.0,
+    13.247216222394504,
+    -75.66235630343543
+   ],
+   "max": [
+    590.6059886474609,
+    38.880818925272216,
+    0.0
+   ],
+   "instances": 673,
+   "triangles": 585161,
+   "bytes": 28453220,
+   "geometryBytes": 21121448,
+   "imageBytes": 5761344,
+   "replacedImages": 22
+  },
+  {
+   "file": "houses.tiles/T_4_9_10.glb",
+   "level": 4,
+   "i": 9,
+   "j": 10,
+   "min": [
+    576.0,
+    20.340045982757307,
+    -386.7122121452011
+   ],
+   "max": [
+    655.3687307992006,
+    35.648736430144915,
+    -320.0
+   ],
+   "instances": 371,
+   "triangles": 156129,
+   "bytes": 7271416,
+   "geometryBytes": 4437160,
+   "imageBytes": 2421364,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_4_9_11.glb",
+   "level": 4,
+   "i": 9,
+   "j": 11,
+   "min": [
+    512.0592421264648,
+    19.38543200108582,
+    -341.36015653645535
+   ],
+   "max": [
+    762.6347578735351,
+    36.91657922737882,
+    -256.0
+   ],
+   "instances": 1312,
+   "triangles": 1006090,
+   "bytes": 32247072,
+   "geometryBytes": 20203916,
+   "imageBytes": 9612456,
+   "replacedImages": 16
+  },
+  {
+   "file": "houses.tiles/T_4_9_14.glb",
+   "level": 4,
+   "i": 9,
+   "j": 14,
+   "min": [
+    576.0,
+    20.280000686645508,
+    -128.0
+   ],
+   "max": [
+    655.4370016229807,
+    42.4181,
+    -64.0
+   ],
+   "instances": 249,
+   "triangles": 164150,
+   "bytes": 4246420,
+   "geometryBytes": 3520036,
+   "imageBytes": 542136,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_9_15.glb",
+   "level": 4,
+   "i": 9,
+   "j": 15,
+   "min": [
+    576.0,
+    18.86771505880156,
+    -86.25876255724674
+   ],
+   "max": [
+    659.4705658882584,
+    64.49109694293342,
+    0.0
+   ],
+   "instances": 392,
+   "triangles": 650360,
+   "bytes": 27806756,
+   "geometryBytes": 19762100,
+   "imageBytes": 7412316,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_10_10.glb",
+   "level": 4,
+   "i": 10,
+   "j": 10,
+   "min": [
+    627.6362867372122,
+    20.3715,
+    -413.411
+   ],
+   "max": [
+    732.005,
+    43.85640106451577,
+    -320.0
+   ],
+   "instances": 192,
+   "triangles": 302520,
+   "bytes": 11975416,
+   "geometryBytes": 9913092,
+   "imageBytes": 1643900,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_4_10_11.glb",
+   "level": 4,
+   "i": 10,
+   "j": 11,
+   "min": [
+    640.0,
+    19.462521573858297,
+    -351.40800266355143
+   ],
+   "max": [
+    732.5989188150479,
+    41.173821056965366,
+    -256.0
+   ],
+   "instances": 485,
+   "triangles": 125290,
+   "bytes": 11814660,
+   "geometryBytes": 4462584,
+   "imageBytes": 6162124,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_4_11_10.glb",
+   "level": 4,
+   "i": 11,
+   "j": 10,
+   "min": [
+    704.0,
+    20.022688402411692,
+    -411.96362468292284
+   ],
+   "max": [
+    788.4898233269691,
+    80.21807243235406,
+    -320.0
+   ],
+   "instances": 289,
+   "triangles": 174439,
+   "bytes": 6985696,
+   "geometryBytes": 5066692,
+   "imageBytes": 1474140,
+   "replacedImages": 1
+  },
+  {
+   "file": "houses.tiles/T_4_11_11.glb",
+   "level": 4,
+   "i": 11,
+   "j": 11,
+   "min": [
+    704.0,
+    18.999635015029906,
+    -341.168420376565
+   ],
+   "max": [
+    794.744190343511,
+    42.28039007240295,
+    -256.0
+   ],
+   "instances": 441,
+   "triangles": 287635,
+   "bytes": 13962144,
+   "geometryBytes": 8441800,
+   "imageBytes": 4858904,
+   "replacedImages": 6
+  },
+  {
+   "file": "houses.tiles/T_4_12_10.glb",
+   "level": 4,
+   "i": 12,
+   "j": 10,
+   "min": [
+    768.0,
+    20.5,
+    -384.0
+   ],
+   "max": [
+    832.0,
+    20.5,
+    -320.0
+   ],
+   "instances": 1,
+   "triangles": 8192,
+   "bytes": 168584,
+   "geometryBytes": 167452,
+   "imageBytes": 0,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_12_11.glb",
+   "level": 4,
+   "i": 12,
+   "j": 11,
+   "min": [
+    768.0,
+    16.8609,
+    -331.10282199554445
+   ],
+   "max": [
+    857.3733987276078,
+    46.561375058364874,
+    -256.0
+   ],
+   "instances": 774,
+   "triangles": 527440,
+   "bytes": 22535640,
+   "geometryBytes": 13550184,
+   "imageBytes": 7820324,
+   "replacedImages": 3
+  },
+  {
+   "file": "houses.tiles/T_4_13_10.glb",
+   "level": 4,
+   "i": 13,
+   "j": 10,
+   "min": [
+    832.0,
+    20.5,
+    -384.0
+   ],
+   "max": [
+    896.0,
+    20.5,
+    -320.0
+   ],
+   "instances": 1,
+   "triangles": 8192,
+   "bytes": 168584,
+   "geometryBytes": 167452,
+   "imageBytes": 0,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_4_13_11.glb",
+   "level": 4,
+   "i": 13,
+   "j": 11,
+   "min": [
+    774.5926401977539,
+    15.746038804391048,
+    -359.1925535747607
+   ],
+   "max": [
+    1024.0333598022462,
+    37.26316105697048,
+    -256.0
+   ],
+   "instances": 470,
+   "triangles": 1399062,
+   "bytes": 6257968,
+   "geometryBytes": 5193820,
+   "imageBytes": 592276,
+   "replacedImages": 3
+  },
+  {
+   "file": "houses.tiles/T_5_8_22.glb",
+   "level": 5,
+   "i": 8,
+   "j": 22,
+   "min": [
+    258.65063588619995,
+    15.468629573272153,
+    -330.318655920098
+   ],
+   "max": [
+    293.7441444511414,
+    35.788689370562,
+    -301.26145802116395
+   ],
+   "instances": 24,
+   "triangles": 198220,
+   "bytes": 4879228,
+   "geometryBytes": 4485052,
+   "imageBytes": 333076,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_5_8_23.glb",
+   "level": 5,
+   "i": 8,
+   "j": 23,
+   "min": [
+    236.97736143192571,
+    13.23900032043457,
+    -320.0
+   ],
+   "max": [
+    320.0,
+    31.3411171021644,
+    -256.0
+   ],
+   "instances": 399,
+   "triangles": 312106,
+   "bytes": 7813752,
+   "geometryBytes": 5895744,
+   "imageBytes": 1469280,
+   "replacedImages": 0
+  },
+  {
+   "file": "houses.tiles/T_5_9_22.glb",
+   "level": 5,
+   "i": 9,
+   "j": 22,
+   "min": [
+    294.94498882508907,
+    19.466533419748117,
+    -328.88173800283613
+   ],
+   "max": [
+    319.54314445114136,
+    35.02408554394728,
+    -301.02263798061233
+   ],
+   "instances": 223,
+   "triangles": 609416,
+   "bytes": 24440712,
+   "geometryBytes": 22844448,
+   "imageBytes": 1204572,
+   "replacedImages": 2
+  },
+  {
+   "file": "houses.tiles/T_5_9_23.glb",
+   "level": 5,
+   "i": 9,
+   "j": 23,
+   "min": [
+    288.21952364345145,
+    20.466443307519924,
+    -303.6950732618645
+   ],
+   "max": [
+    329.70711408374035,
+    33.56005998458862,
+    -268.6663487380024
+   ],
+   "instances": 453,
+   "triangles": 471744,
+   "bytes": 13588244,
+   "geometryBytes": 10751864,
+   "imageBytes": 2104072,
+   "replacedImages": 0
+  }
+ ],
+ "excluded": {
+  "patterns": [
+   "RAKis Freebies"
+  ],
+  "maxTriangles": 24,
+  "maxMeshes": 1,
+  "count": 373,
+  "triangles": 4476,
+  "bytesSaved": 0,
+  "bytesShared": 117800,
+  "names": {
+   "- RAKis Freebies 2019": 16,
+   "Dust bunny hill top cottage 1 - RAKis Freebies 2019": 3,
+   "City 15 Building Dummy large - RAKis Freebies 2019": 3,
+   "Boutisue de la mer  - RAKis Freebies 2019": 2,
+   "Grove Corner Building - RAKis Freebies 2019": 2,
+   "City 14 Building Dummy large - RAKis Freebies 2019": 2,
+   "Shop Type A _blue - RAKis Freebies 2019": 2,
+   "Bella Vista House - RAKis Freebies 2019": 2,
+   "Nice Cottage 64 - RAKis Freebies 2019": 2,
+   "High-rise module 350m - RAKis Freebies 2019": 2,
+   "BeauRoche House - RAKis Freebies 2019": 2,
+   "City Stores - Box - RAKis Freebies 2019": 2,
+   "Modern House 1 - RAKis Freebies 2019": 2,
+   "Big warehouse building - RAKis Freebies 2019": 2,
+   "- RAKis Freebies 2020": 2,
+   "TLG - ForrestTheater - RAKis Freebies 2019": 2,
+   "Rakis Heron @ yeali.outworldz.net:8002 - RAKis Freebies 2019": 2,
+   "Chapel Ruins - RAKis Freebies 2019": 2,
+   "Old city house group prim0-mesh#96 - RAKis Freebies 2019": 2,
+   "Bates Home Stark-Edition (Tintable) - RAKis Freebies 2019": 2
+  }
+ },
+ "overview": {
+  "file": "houses.overview.glb",
+  "bytes": 24121676,
+  "triangles": 1287790,
+  "terrainTriangles": 130050,
+  "objects": 21110,
+  "candidates": 60266,
+  "omitted": {
+   "small": 26164,
+   "skinned": 0,
+   "translucentPrimitives": 9314,
+   "budget": 8205
+  },
+  "effectiveMinExtent": 5.0,
+  "resolution": 10,
+  "effectiveTerrainStep": 4.0,
+  "seconds": 24.4,
+  "colors": {
+   "textureAverages": 10109,
+   "unreadable": 0,
+   "withoutPillow": 0,
+   "pillow": true
+  },
+  "params": {
+   "budgetMo": 25.0,
+   "budgetTriangles": 1500000,
+   "minExtent": 3.0,
+   "maxExtent": 24.0,
+   "resolution": 10,
+   "terrainStep": 4.0
+  }
+ }
+}
