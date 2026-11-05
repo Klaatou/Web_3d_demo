@@ -157,5 +157,25 @@
   "confirm": false,
   "private": false,
   "mesh": ""
+ },
+ {
+  "id": "z1",
+  "type": "url",
+  "label": "Vers la Grille OpenSim BloodMoon",
+  "x": 385.5,
+  "y":  20.7, 
+  "z": -371.0,
+  "yaw": -3,
+  "shape": "board",
+  "trigger": "click",
+  "radius": 2,
+  "w": 2.4,
+  "h": 1.2,
+  "target": "hop://bloodmoonpack.com:8002/BloodMoon_Welcome/354/319/122",
+  "spawn": "",
+  "confirm": false,
+  "private": false,
+  "showName": true,
+  "mesh": ""
  }
 ]
