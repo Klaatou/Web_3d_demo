@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Aide : visiter la galerie / Help: visiting the gallery</title>
+<title>Aide : visiter la région / Help: visiting the region</title>
 <style>
 :root{--bg:#f7f7f4;--fg:#1c1c1c;--mut:#555;--card:#fff;--line:#c9c9c0;--acc:#0b3d6e;--code:#eceae2}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15181c;--fg:#e8e8e4;--mut:#a9a9a3;--card:#1e2227;--line:#3a4048;--acc:#8ec1f2;--code:#2a3037}}
@@ -27,6 +27,7 @@ th{background:var(--code)}
 .lang button{font:inherit;padding:4px 14px;border:0;background:var(--card);color:var(--fg);cursor:pointer}
 .lang button[aria-pressed="true"]{background:var(--acc);color:var(--bg);font-weight:700;text-decoration:underline}
 a{color:var(--acc)}
+.credit{margin-top:32px;color:var(--mut);font-size:.9em}
 [data-l]{display:none}
 html[data-lang="fr"] [data-l="fr"],html[data-lang="en"] [data-l="en"]{display:block}
 html[data-lang="fr"] span[data-l="fr"],html[data-lang="en"] span[data-l="en"]{display:inline}
@@ -49,15 +50,15 @@ html[data-lang="fr"] tr[data-l="fr"],html[data-lang="en"] tr[data-l="en"]{displa
 <body>
 <main>
 <header>
-  <h1><span data-l="fr">Aide : visiter la galerie</span><span data-l="en">Help: visiting the gallery</span></h1>
+  <h1><span data-l="fr">Aide : visiter la région</span><span data-l="en">Help: visiting the region</span></h1>
   <div class="lang" role="group" aria-label="Langue / Language">
     <button type="button" data-v="fr" aria-pressed="true" onclick="setLang('fr')">Français</button>
     <button type="button" data-v="en" aria-pressed="false" onclick="setLang('en')">English</button>
   </div>
 </header>
 <div data-l="fr">
-<div class="note" id="doc-createur"><b>Pour le créateur</b> : la documentation de ce paquet est dans <a href="galerie.html">galerie.html</a>. Cette page-ci est l'aide des visiteurs : modifiez-la comme vous voulez, et <b>supprimez ce cadre</b> (la balise <code>div</code> d'<code>id="doc-createur"</code>) quand elle est prête.</div>
-<p>Voici comment visiter la galerie. Les mêmes touches sont rappelées dans la page par la touche <b>H</b>.</p>
+<div class="note" id="doc-createur"><b>Pour le créateur</b> : la documentation de ce paquet est dans <a href="readme.html">readme.html</a>. Cette page-ci est l'aide des visiteurs : modifiez-la comme vous voulez, et <b>supprimez ce cadre</b> (la balise <code>div</code> d'<code>id="doc-createur"</code>) quand elle est prête.</div>
+<p>Voici comment visiter la région. Les mêmes touches sont rappelées dans la page par la touche <b>H</b>.</p>
 <h2>À l'ouverture : la vue globale</h2>
 <ul>
 <li>glisser : tourner</li>
@@ -123,12 +124,13 @@ html[data-lang="fr"] tr[data-l="fr"],html[data-lang="en"] tr[data-l="en"]{displa
 <li>Échap : fermer</li>
 <li>flèches : dans le texte (après Échap : se déplacer)</li>
 </ul>
-<!-- Ajoutez ici la présentation de la galerie : ce que l'on y voit, les règles, les liens... -->
+<!-- Ajoutez ici la présentation de la région : ce que l'on y voit, les règles, les liens... -->
+<p class="credit">Réalisé avec <a href="https://github.com/Klaatou/Web_3d">Web_3d</a> (logiciel libre, licence MIT).</p>
 </div>
 
 <div data-l="en">
-<div class="note" id="doc-createur"><b>For the creator</b>: this package's documentation is in <a href="galerie.html">galerie.html</a>. This page is the visitors' help: change it as you like, and <b>delete this box</b> (the <code>div</code> tag with <code>id="doc-createur"</code>) when it is ready.</div>
-<p>Here is how to visit the gallery. The same keys are shown in the page with the <b>H</b> key.</p>
+<div class="note" id="doc-createur"><b>For the creator</b>: this package's documentation is in <a href="readme.html">readme.html</a>. This page is the visitors' help: change it as you like, and <b>delete this box</b> (the <code>div</code> tag with <code>id="doc-createur"</code>) when it is ready.</div>
+<p>Here is how to visit the region. The same keys are shown in the page with the <b>H</b> key.</p>
 <h2>On opening: the global view</h2>
 <ul>
 <li>drag: rotate</li>
@@ -194,7 +196,8 @@ html[data-lang="fr"] tr[data-l="fr"],html[data-lang="en"] tr[data-l="en"]{displa
 <li>Esc: close</li>
 <li>arrows: in the text (after Esc: move around)</li>
 </ul>
-<!-- Add here the presentation of the gallery: what to see, the rules, links... -->
+<!-- Add here the presentation of the region: what to see, the rules, links... -->
+<p class="credit">Made with <a href="https://github.com/Klaatou/Web_3d">Web_3d</a> (free software, MIT licence).</p>
 </div>
 </main>
 </body>
