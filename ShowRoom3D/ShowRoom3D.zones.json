@@ -679,6 +679,6 @@
     "private": false,
     "showName": false,
     "mesh": "",
-    "link": "lien.html"
+    "link": "./ShowRoom3D/lien.html"
  }
 ]
