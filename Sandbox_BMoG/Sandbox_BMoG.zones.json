@@ -1,0 +1,43 @@
+[
+  {
+    "id": "aide",
+    "type": "image",
+    "label": "Aide",
+    "x": -4.48,
+    "y": 17.2,
+    "z": -6.0,
+    "yaw": 1.5707963,
+    "shape": "ring",
+    "trigger": "click",
+    "radius": 2,
+    "w": 0.9,
+    "h": 0,
+    "target": "aide.jpg",
+    "spawn": "",
+    "confirm": false,
+    "private": false,
+    "showName": false,
+    "mesh": "",
+    "link": "aide.html"
+ },
+{
+  "id": "zhop",
+  "type": "url",
+  "label": "To Sandbox_BMoG In World",
+  "x": 80.2,
+  "y": -2.1,
+  "z": 105.9,
+  "yaw": -3,
+  "shape": "ring",
+  "trigger": "both",
+  "radius": 2,
+  "w": 2.4,
+  "h": 1.2,
+  "target": "hop://bloodmoonpack.com:8002/Sandbox_BM/3/110/24",
+  "spawn": "",
+  "confirm": false,
+  "private": false,
+  "showName": false,
+  "mesh": ""
+}
+]

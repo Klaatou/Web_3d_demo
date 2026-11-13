@@ -44,6 +44,17 @@
    "room": "houses",
    "thumb": "houses/houses.png",
    "presence": "wss://web-3d.tailce268a.ts.net"
+  },
+  {
+   "id": "sandbox_bmog",
+   "name": "Sandbox_BMoG",
+   "url": "index.html?region=Sandbox_BMoG/Sandbox_BMoG",
+   "x": 0,
+   "y": 0,
+   "spawn": "",
+   "room": "Sandbox_BMoG",
+   "thumb": "",
+   "presence": ""
   }
  ]
 }
