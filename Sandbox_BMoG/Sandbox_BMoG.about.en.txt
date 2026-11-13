@@ -1,0 +1,6 @@
+Sandbox_BMoG: a region of the BloodMoon Pack grid
+This region comes from the sandbox of the BloodMoon Pack OpenSim grid. Thanks to Vlad, its owner.
+It is shown here to demonstrate OpenSim 0.9.3 PBR materials and their new lighting: walk around (P key) and try the "Metallic reflections" setting in Settings.
+In the middle of the region, a circle is a hop zone: walk onto it (or click it, or press E) to open a hop:// link to the same region in the BloodMoon Pack grid. You need an OpenSim viewer registered for hop://; the browser asks for confirmation.
+Here you can only look: no object can be collected in this web version.
+Converted with Web_3d: https://github.com/Klaatou/Web_3d

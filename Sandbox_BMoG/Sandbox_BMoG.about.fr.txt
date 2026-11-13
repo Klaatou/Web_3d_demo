@@ -1,0 +1,6 @@
+Sandbox_BMoG : une région de la grille BloodMoon Pack
+Cette région vient de la sandbox de la grille OpenSim BloodMoon Pack. Merci à Vlad, son propriétaire.
+Elle est présentée ici pour montrer les matériaux PBR d'OpenSim 0.9.3 et leur nouvel éclairage : promène-toi (touche P) et essaie le réglage « Reflets métalliques » dans les Réglages.
+Au centre de la région, un cercle est une zone de saut : marche dessus (ou clic, ou touche E) pour ouvrir un lien hop:// vers la même région dans la grille BloodMoon Pack. Il faut un viewer OpenSim enregistré pour hop:// ; le navigateur demande confirmation.
+Ici, on ne fait que regarder : aucun objet ne peut être récupéré dans cette version web.
+Convertie avec Web_3d : https://github.com/Klaatou/Web_3d
