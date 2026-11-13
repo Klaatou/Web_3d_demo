@@ -49,12 +49,12 @@
    "id": "sandbox_bmog",
    "name": "Sandbox_BMoG",
    "url": "index.html?region=Sandbox_BMoG/Sandbox_BMoG",
-   "x": 0,
+   "x": 4,
    "y": 0,
    "spawn": "",
    "room": "Sandbox_BMoG",
    "thumb": "Sandbox_BMoG/Sandbox_BMoG.jpg",
-   "presence": ""
+   "presence": "wss://web-3d.tailce268a.ts.net"
   }
  ]
 }

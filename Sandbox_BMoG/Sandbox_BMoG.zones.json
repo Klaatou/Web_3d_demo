@@ -24,20 +24,11 @@
   "id": "zhop",
   "type": "url",
   "label": "To Sandbox_BMoG In World",
-  "x": 80.2,
-  "y": -2.1,
-  "z": 105.9,
-  "yaw": -3,
+  "x": 80.2, "y": -2.1, "z": 105.9, "yaw": -3,
   "shape": "ring",
   "trigger": "both",
   "radius": 2,
-  "w": 2.4,
-  "h": 1.2,
   "target": "hop://bloodmoonpack.com:8002/Sandbox_BM/3/110/24",
-  "spawn": "",
-  "confirm": false,
-  "private": false,
-  "showName": false,
-  "mesh": ""
+  "cone": true
 }
 ]
