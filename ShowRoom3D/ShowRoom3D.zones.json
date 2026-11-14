@@ -694,7 +694,7 @@
   "radius": 20,
   "w": 2.4,
   "h": 1.2,
-  "target": "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+  "target": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
   "spawn": "",
   "confirm": false,
   "private": false,
