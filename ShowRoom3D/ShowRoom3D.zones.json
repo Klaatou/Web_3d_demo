@@ -684,7 +684,7 @@
   {
   "id": "zcast",
   "type": "cast",
-  "label": "Radio Jazz",
+  "label": "Country Radio",
     "x": 0.5,
     "y": 12.20,
     "z": 0.265,
@@ -694,7 +694,7 @@
   "radius": 20,
   "w": 2.4,
   "h": 1.2,
-  "target": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+  "target": "https://www.Country-Radio.eu:8044/56.mp3",
   "spawn": "",
   "confirm": false,
   "private": false,
