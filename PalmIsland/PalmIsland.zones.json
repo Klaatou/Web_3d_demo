@@ -18,6 +18,26 @@
   "private": false,
   "showName": false,
   "mesh": ""
+ },
+ {
+  "id": "z1",
+  "type": "audio",
+  "label": "Locale",
+  "x": 20.87,
+  "y": 15.13,
+  "z": -5.51,
+  "yaw": -1.0237216145545296,
+  "shape": "ring",
+  "trigger": "click",
+  "radius": 70,
+  "w": 2.4,
+  "h": 1.2,
+  "target": "",
+  "spawn": "",
+  "confirm": false,
+  "private": false,
+  "showName": false,
+  "mesh": "",
+  "folder": "audio"
  }
- 
 ]
