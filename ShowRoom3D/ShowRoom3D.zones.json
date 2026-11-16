@@ -694,7 +694,7 @@
   "radius": 20,
   "w": 2.4,
   "h": 1.2,
-  "target": "https://www.Country-Radio.eu:8044/56.mp3",
+  "target": "https://cast1.torontocast.com:4610/stream",
   "spawn": "",
   "confirm": false,
   "private": false,
