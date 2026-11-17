@@ -684,7 +684,7 @@
   {
   "id": "zcast",
   "type": "cast",
-  "label": "Addictive-50s - Golden oldies CA",
+  "label": "",
     "x": 0.5,
     "y": 12.20,
     "z": 0.265,
@@ -694,7 +694,11 @@
   "radius": 20,
   "w": 2.4,
   "h": 1.2,
-  "target": "https://cast1.torontocast.com:4610/stream",
+  "streams": [
+    ["Radio Dimensione Mix","https://cast1.torontocast.com:4610/stream"],
+    ["Oldies Radio","https://s2.reliastream.com/proxy/oldiesradio?mp=/stream"],
+    ["Jazz Radio","https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3"]
+  ],
   "spawn": "",
   "confirm": false,
   "private": false,
