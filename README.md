@@ -6,12 +6,12 @@
 
 ## Français
 
-Quatre "régions" à visiter dans le navigateur (trois régions OpenSim et une galerie de photos en 3D), sans rien installer : **[ouvrir la démo](https://klaatou.github.io/Web_3d_demo/)**.
+Cinq "régions" à visiter dans le navigateur (quatre régions OpenSim, dont une grande région en tuiles, et une galerie de photos en 3D), sans rien installer : **[ouvrir la démo](https://klaatou.github.io/Web_3d_demo/)**.
 
 **[Menu des "régions" en démo](https://klaatou.github.io/Web_3d_demo/carte.html)**
 
 - **Le projet** : [Web_3d](https://github.com/Klaatou/Web_3d) (présentation, documentation, code sous licence MIT).
-- **Les régions** : PalmIsland (une île), Hobbit (un **fragment** de région : seule une partie a été sauvée dans l'OAR d'origine), ShowRoom3D (une galerie de photos en 3D, avec ses panneaux cliquables, du même genre que `galerie-photos.zip`) et **Houses**, nouvelle : une **grande région découpée en tuiles** (une galerie de maisons sur 4 x 4 régions). PalmIsland et Hobbit sont reliées par des portails, et `carte.html` affiche la carte des quatre.
+- **Les régions** : PalmIsland (une île), Hobbit (un **fragment** de région : seule une partie a été sauvée dans l'OAR d'origine), ShowRoom3D (une galerie de photos en 3D, avec ses panneaux cliquables, du même genre que `galerie-photos.zip`), **Houses** : une **grande région découpée en tuiles** (une galerie de maisons sur 4 x 4 régions) et **Sandbox_BMoG** (voir plus bas). PalmIsland et Hobbit sont reliées par des portails, et `carte.html` affiche la carte des cinq.
 - **[PalmIsland](https://klaatou.github.io/Web_3d_demo/index.html?region=PalmIsland/PalmIsland#spawn=default)** : une série de musiques a été ajoutée en démo de la nouvelle zone Audio disponible dans Web 3D.
 - **[ShowRoom3D](https://klaatou.github.io/Web_3d_demo/index.html?region=ShowRoom3D/ShowRoom3D#spawn=default)** : Sonorisé avec une série de flux réseau de plusieurs Radios
 - **Houses, une grosse région en "tuiles"** : la page affiche d'abord une vue d'ensemble légère, puis charge au fur et à mesure les morceaux (les "tuiles") proches du promeneur ; on ne télécharge jamais toute la région. **[Ouvrir Houses](https://klaatou.github.io/Web_3d_demo/index.html?region=houses/houses)**.
@@ -35,12 +35,12 @@ Dézipper, lire `README.txt`, double-cliquer sur le lanceur (Windows, macOS) ou 
 
 ## English
 
-Four "regions" to visit in the browser (three OpenSim regions and a 3D photo gallery), with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**.
+Five "regions" to visit in the browser (four OpenSim regions, one of them a large tiled region, and a 3D photo gallery), with nothing to install: **[open the demo](https://klaatou.github.io/Web_3d_demo/)**.
 
 **[Demo "regions" menu](https://klaatou.github.io/Web_3d_demo/carte.html)**
 
 - **The project**: [Web_3d](https://github.com/Klaatou/Web_3d) (overview, documentation, MIT-licensed code).
-- **The regions**: PalmIsland (an island), Hobbit (a **fragment** of a region: only a part was saved in the original OAR), ShowRoom3D (a 3D photo gallery with clickable panels, of the same kind as `galerie-photos.zip`) and **Houses**, new: a **large region split into tiles** (a gallery of houses over 4 x 4 regions). PalmIsland and Hobbit are linked by portals, and `carte.html` shows the map of the four.
+- **The regions**: PalmIsland (an island), Hobbit (a **fragment** of a region: only a part was saved in the original OAR), ShowRoom3D (a 3D photo gallery with clickable panels, of the same kind as `galerie-photos.zip`), **Houses**: a **large region split into tiles** (a gallery of houses over 4 x 4 regions) and **Sandbox_BMoG** (see below). PalmIsland and Hobbit are linked by portals, and `carte.html` shows the map of the five.
 - **[PalmIsland](https://klaatou.github.io/Web_3d_demo/index.html?region=PalmIsland/PalmIsland#spawn=default)**: A series of music tracks has been added as a demo for the new Audio zone available in Web 3D.
 - **[ShowRoom3D](https://klaatou.github.io/Web_3d_demo/index.html?region=ShowRoom3D/ShowRoom3D#spawn=default)**: Equipped with sound via a series of network streams from various radio stations
 - **Houses, a "tiled" big region**: the page first shows a light overview, then loads the pieces (the "tiles") near the walker as they go; the whole region is never downloaded. **[Open Houses](https://klaatou.github.io/Web_3d_demo/index.html?region=houses/houses)**.
