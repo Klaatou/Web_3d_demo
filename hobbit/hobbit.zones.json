@@ -1,23 +1,81 @@
 [
  {
   "id": "z2",
-  "type": "portal",
   "label": "Portal to PalmIsland",
-  "x": 14,
-  "y": 14,
-  "z": 35,
+  "x": 14.0,
+  "y": 14.0,
+  "z": 35.0,
   "yaw": 3.141592653589793,
-  "shape": "ring",
   "trigger": "enter",
-  "radius": 2,
-  "w": 2.4,
-  "h": 1.2,
-  "target": "index.html?region=PalmIsland/PalmIsland",
-  "spawn": "",
-  "confirm": false,
-  "private": false,
-  "showName": false,
-  "mesh": ""
+  "portal": "index.html?region=PalmIsland/PalmIsland"
+ },
+ {
+  "id": "video-1",
+  "label": "Vidéo Youtube",
+  "x": 10.8,
+  "y": 13.0,
+  "z": -28.9,
+  "radius": 3.0,
+  "trigger": "both",
+  "image": "youtube.png",
+  "w": 3.0,
+  "link": "https://www.youtube.com/watch?v=Qp7TR1RAjXc&list=RDQp7TR1RAjXc",
+  "frame": true,
+  "showName": true
+ },
+ {
+  "id": "ecran1",
+  "label": "Ecran",
+  "x": 4.9,
+  "y": 16.0,
+  "z": -31.0,
+  "radius": 15,
+  "video": "",
+  "videoFolder": "clips",
+  "tracks": [
+   "1.mkv",
+   "2.mkv"
+  ],
+  "sound": true,
+  "w": 3.0
+ },
+ {
+  "id": "ecran2",
+  "label": "Ecran",
+  "x": 16.7,
+  "y": 16.0,
+  "z": -30.2,
+  "radius": 15,
+  "video": "",
+  "videoFolder": "clips",
+  "tracks": [
+   "3.mkv",
+   "4.mkv"
+  ],
+  "sound": true,
+  "w": 3.0
+ },
+ {
+  "id": "zcast",
+  "x": 6.0,
+  "y": 14.0,
+  "z": -1.1,
+  "model": "radio.glb",
+  "scale": 0.07,  
+  "yaw": 6,
+  "radio": [
+   [
+    "Radio Dimensione Mix",
+    "https://cast1.torontocast.com:4610/stream"
+   ],
+   [
+    "Oldies Radio",
+    "https://s2.reliastream.com/proxy/oldiesradio?mp=/stream"
+   ],
+   [
+    "Jazz Radio",
+    "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3"
+   ]
+  ]
  }
- 
 ]
