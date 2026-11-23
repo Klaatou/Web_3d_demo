@@ -11,7 +11,10 @@
  },
  {
   "id": "video-1",
-  "label": "Vidéo Youtube",
+  "labels": {
+   "fr": "Vidéo YouTube",
+   "en": "YouTube video"
+  },
   "x": 10.8,
   "y": 13.0,
   "z": -28.9,
@@ -21,11 +24,15 @@
   "w": 3.0,
   "link": "https://www.youtube.com/watch?v=Qp7TR1RAjXc&list=RDQp7TR1RAjXc",
   "frame": true,
-  "showName": true
+  "showName": true,
+  "linkTitle": "Bonnie Raitt - Something To Talk About (IMY2 Cover)"
  },
  {
   "id": "ecran1",
-  "label": "Ecran",
+  "labels": {
+   "fr": "Écran 1",
+   "en": "Screen 1"
+  },
   "x": 4.9,
   "y": 16.0,
   "z": -31.0,
@@ -41,7 +48,10 @@
  },
  {
   "id": "ecran2",
-  "label": "Ecran",
+  "labels": {
+   "fr": "Écran 2",
+   "en": "Screen 2"
+  },
   "x": 16.7,
   "y": 16.0,
   "z": -30.2,
@@ -57,11 +67,15 @@
  },
  {
   "id": "zcast",
+  "label": {
+   "fr": "Radio locale sur :",
+   "en": "Local Radio on:"
+  },
   "x": 6.0,
   "y": 14.0,
   "z": -1.1,
   "model": "radio.glb",
-  "scale": 0.07,  
+  "scale": 0.07,
   "yaw": 6,
   "radio": [
    [
